@@ -1,42 +1,46 @@
-Python Variables
+# ***********Python Variables***************
 
 Here we will discuss about how to create the variables.
-Creating Variables
+
 Variables are containers for storing data values.
 
 Unlike other programming languages, Python has no command for declaring a variable.
 
 A variable is created the moment you first assign a value to it.
 
-Example
+#Example:
+  
 x = 5
 y = "John"
 print(x)
 print(y)
 
-Variables do not need to be declared with any particular type and can even change type after they have been set.
+#Variables do not need to be declared with any particular type and can even change type after they have been set.
 
-Example
-x = 4 # x is of type int
+#Example:
+
+x = 4 # x is a variable of type int
 x = "Sally" # x is now of type str
 print(x)
 
-String variables can be declared either by using single or double quotes:
+#String variables can be declared either by using single or double quotes:
 
-Example
+#Example:
+
 x = "John"
 # is the same as
 x = 'John'
 
 
 '''Variable Names
-A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
-A variable name must start with a letter or the underscore character
-A variable name cannot start with a number
-A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
-Variable names are case-sensitive (age, Age and AGE are three different variables)
+1. A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
+2. A variable name must start with a letter or the underscore character
+3. A variable name cannot start with a number
+4. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+5. Variable names are case-sensitive (age, Age and AGE are three different variables)
 '''
-Example
+
+#Example:
 #Legal variable names:
 myvar = "John"
 my_var = "John"
@@ -51,66 +55,72 @@ my-var = "John"
 my var = "John"
 
 
-Remember that variable names are case-sensitive
+'''Remember that variable names in Python are case-sensitive.
 
 Assign Value to Multiple Variables
 Python allows you to assign values to multiple variables in one line:
+'''
+#Example:
 
-Example
 x, y, z = "Orange", "Banana", "Cherry"
 print(x)
 print(y)
 print(z)
 
-And you can assign the same value to multiple variables in one line:
+#And you can assign the same value to multiple variables in one line:
 
-Example
+#Example:
+
 x = y = z = "Orange"
 print(x)
 print(y)
 print(z)
 
+#Output Variables
+#The Python print statement is often used to output variables.
 
-Output Variables
-The Python print statement is often used to output variables.
+#To combine both text and a variable, Python uses the + character:
 
-To combine both text and a variable, Python uses the + character:
+#Example:
 
-Example
 x = "awesome"
 print("Python is " + x)
 
 
-You can also use the + character to add a variable to another variable:
+#You can also use the + character to add a variable to another variable:
 
-Example
+#Example:
+
 x = "Python is "
 y = "awesome"
 z =  x + y
 print(z)
 
-For numbers, the + character works as a mathematical operator:
+#For numbers, the + character works as a mathematical operator:
 
-Example
+#Example:
+
 x = 5
 y = 10
 print(x + y)
 
 
-If you try to combine a string and a number, Python will give you an error:
+#If you try to combine a string and a number, Python will give you an error:
 
-Example
+#Example:
+
 x = 5
 y = "John"
 print(x + y)
 
-Global Variables
+'''Global Variables:
 Variables that are created outside of a function (as in all of the examples above) are known as global variables.
 
 Global variables can be used by everyone, both inside of functions and outside.
 
 Example
 Create a variable outside of a function, and use it inside the function
+'''
 
 x = "awesome"
 
