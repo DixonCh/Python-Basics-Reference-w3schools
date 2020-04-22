@@ -1,4 +1,3 @@
-'''
 Python Install
 Many PCs and Macs will have python already installed.
 
@@ -68,4 +67,3 @@ Whenever you are done in the python command line, you can simply type the follow
 
 exit()
 
-'''
