@@ -1,5 +1,3 @@
-"""
-
 What is Python?
 Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
 
@@ -45,8 +43,3 @@ Python relies on indentation, using whitespace, to define scope; such as the sco
 
 Other programming languages often use curly-brackets for this purpose.
 
-
-
-
-
-"""
