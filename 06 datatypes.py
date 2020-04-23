@@ -24,9 +24,9 @@ x = 5
 print(type(x))
 
 #Setting the Data Type
-In Python, the data type is set when you assign a value to a variable:
+#In Python, the data type is set when you assign a value to a variable:
 
-Example	Data Type	Try it
+#Example	Data Type	Try it
 x = "Hello World"	str	
 x = 20	int	
 x = 20.5	float	
@@ -41,10 +41,11 @@ x = True	bool
 x = b"Hello"	bytes	
 x = bytearray(5)	bytearray	
 x = memoryview(bytes(5))	memoryview	
-Setting the Specific Data Type
-If you want to specify the data type, you can use the following constructor functions:
+#Setting the Specific Data Type
+#If you want to specify the data type, you can use the following constructor functions:
 
-Example	Data Type	Try it
+#Example	Data Type	Try it
+
 x = str("Hello World")	                                str	
 x = int(20)	                                            int	
 x = float(20.5)	                                        float	
