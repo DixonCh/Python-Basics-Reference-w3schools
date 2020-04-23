@@ -17,12 +17,13 @@ Getting the Data Type
 You can get the data type of any object by using the type() function:
 '''
 
-Example
-Print the data type of the variable x:
+#Example
+#Print the data type of the variable x:
 
 x = 5
 print(type(x))
-Setting the Data Type
+
+#Setting the Data Type
 In Python, the data type is set when you assign a value to a variable:
 
 Example	Data Type	Try it
