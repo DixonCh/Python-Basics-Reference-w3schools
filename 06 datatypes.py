@@ -1,4 +1,4 @@
-Python Data Types
+'''Python Data Types
 Built-in Data Types
 In programming, data type is an important concept.
 
@@ -15,6 +15,7 @@ Boolean Type:	bool
 Binary Types:	bytes, bytearray, memoryview
 Getting the Data Type
 You can get the data type of any object by using the type() function:
+'''
 
 Example
 Print the data type of the variable x:
