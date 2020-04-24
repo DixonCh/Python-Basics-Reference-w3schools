@@ -1,12 +1,14 @@
-Python Sets
+'''Python Sets
 Set
 A set is a collection which is unordered and unindexed. In Python sets are written with curly brackets.
 
 Example
 Create a Set:
+'''
 
 thisset = {"apple", "banana", "cherry"}
 print(thisset)
+'''
 Note: Sets are unordered, so you cannot be sure in which order the items will appear.
 
 Access Items
@@ -16,6 +18,7 @@ But you can loop through the set items using a for loop, or ask if a specified v
 
 Example
 Loop through the set, and print the values:
+'''
 
 thisset = {"apple", "banana", "cherry"}
 
