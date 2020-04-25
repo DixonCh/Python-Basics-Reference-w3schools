@@ -1,7 +1,9 @@
 #Python Tuples
 '''
-Tuple
-A tuple is a collection which is ordered and unchangeable. This means you can't change the value in the tuple. In Python tuples are written with round brackets.
+Tuple:
+
+A tuple is a collection which is ordered and unchangeable. This means you can't change the value in the tuple. 
+In Python tuples are written with round brackets.
 
 Example
 Create a Tuple:
@@ -13,7 +15,7 @@ print(thistuple)
 Access Tuple Items
 You can access tuple items by referring to the index number, inside square brackets:
 
-Example
+Example:
 Print the second item in the tuple:
 '''
 thistuple = ("apple", "banana", "cherry")
