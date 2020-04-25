@@ -1,9 +1,10 @@
-Python Dictionaries
+'''Python Dictionaries
 Dictionary
 A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
 
 Example
 Create and print a dictionary:
+'''
 
 thisdict = {
   "brand": "Ford",
@@ -11,25 +12,31 @@ thisdict = {
   "year": 1964
 }
 print(thisdict)
+'''
 Accessing Items
 You can access the items of a dictionary by referring to its key name, inside square brackets:
 
 Example
 Get the value of the "model" key:
+'''
 
 x = thisdict["model"]
+'''
 There is also a method called get() that will give you the same result:
 
 Example
 Get the value of the "model" key:
+'''
 
 x = thisdict.get("model")
 
+'''
 Change Values
 You can change the value of a specific item by referring to its key name:
 
 Example
 Change the "year" to 2018:
+'''
 
 thisdict = {
   "brand": "Ford",
@@ -37,6 +44,7 @@ thisdict = {
   "year": 1964
 }
 thisdict["year"] = 2018
+'''
 Loop Through a Dictionary
 You can loop through a dictionary by using a for loop.
 
@@ -44,29 +52,42 @@ When looping through a dictionary, the return value are the keys of the dictiona
 
 Example
 Print all key names in the dictionary, one by one:
+'''
 
 for x in thisdict:
   print(x)
+  
+'''
 Example
 Print all values in the dictionary, one by one:
+'''
 
 for x in thisdict:
   print(thisdict[x])
+  
+'''
 Example
 You can also use the values() function to return values of a dictionary:
+'''
 
 for x in thisdict.values():
   print(x)
+ 
+'''
 Example
 Loop through both keys and values, by using the items() function:
+'''
 
 for x, y in thisdict.items():
   print(x, y)
+ 
+'''
 Check if Key Exists
 To determine if a specified key is present in a dictionary use the in keyword:
 
 Example
 Check if "model" is present in the dictionary:
+'''
 
 thisdict = {
   "brand": "Ford",
@@ -75,6 +96,7 @@ thisdict = {
 }
 if "model" in thisdict:
   print("Yes, 'model' is one of the keys in the thisdict dictionary")
+  
 Dictionary Length
 To determine how many items (key-value pairs) a dictionary has, use the len() method.
 
