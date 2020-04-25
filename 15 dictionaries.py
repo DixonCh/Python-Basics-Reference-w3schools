@@ -200,11 +200,13 @@ thisdict = {
 }
 mydict = thisdict.copy()
 print(mydict)
+
+'''
 Another way to make a copy is to use the built-in method dict().
 
 Example
 Make a copy of a dictionary with the dict() method:
-
+'''
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -212,11 +214,14 @@ thisdict = {
 }
 mydict = dict(thisdict)
 print(mydict)
+
+'''
 Nested Dictionaries
 A dictionary can also contain many dictionaries, this is called nested dictionaries.
 
 Example
 Create a dictionary that contain three dictionaries:
+'''
 
 myfamily = {
   "child1" : {
@@ -232,11 +237,12 @@ myfamily = {
     "year" : 2011
   }
 }
+'''
 Or, if you want to nest three dictionaries that already exists as dictionaries:
 
 Example
 Create three dictionaries, than create one dictionary that will contain the other three dictionaries:
-
+'''
 child1 = {
   "name" : "Emil",
   "year" : 2004
@@ -255,10 +261,12 @@ myfamily = {
   "child2" : child2,
   "child3" : child3
 }
+'''
 The dict() Constructor
 It is also possible to use the dict() constructor to make a new dictionary:
 
 Example
+'''
 thisdict = dict(brand="Ford", model="Mustang", year=1964)
 # note that keywords are not string literals
 # note the use of equals rather than colon for the assignment
