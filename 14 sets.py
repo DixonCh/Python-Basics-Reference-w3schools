@@ -83,7 +83,8 @@ thisset.remove("banana")
 print(thisset)
 Note: If the item to remove does not exist, remove() will raise an error.
 
-Example
+Example:
+  
 Remove "banana" by using the discard() method:
 
 thisset = {"apple", "banana", "cherry"}
@@ -97,7 +98,8 @@ You can also use the pop(), method to remove an item, but this method will remov
 
 The return value of the pop() method is the removed item.
 
-Example
+Example:
+  
 Remove the last item by using the pop() method:
 
 thisset = {"apple", "banana", "cherry"}
@@ -109,7 +111,7 @@ print(x)
 print(thisset)
 Note: Sets are unordered, so when using the pop() method, you will not know which item that gets removed.
 
-Example
+Example:
 The clear() method empties the set:
 
 thisset = {"apple", "banana", "cherry"}
@@ -117,7 +119,8 @@ thisset = {"apple", "banana", "cherry"}
 thisset.clear()
 
 print(thisset)
-Example
+
+Example:
 The del keyword will delete the set completely:
 
 thisset = {"apple", "banana", "cherry"}
@@ -130,7 +133,8 @@ There are several ways to join two or more sets in Python.
 
 You can use the union() method that returns a new set containing all items from both sets, or the update() method that inserts all the items from one set into another:
 
-Example
+Example:
+  
 The union() method returns a new set with all items from both sets:
 
 set1 = {"a", "b" , "c"}
@@ -138,7 +142,9 @@ set2 = {1, 2, 3}
 
 set3 = set1.union(set2)
 print(set3)
-Example
+
+Example:
+  
 The update() method inserts the items in set2 into set1:
 
 set1 = {"a", "b" , "c"}
@@ -153,7 +159,8 @@ There are other methods that joins two sets and keeps ONLY the duplicates, or NE
 The set() Constructor
 It is also possible to use the set() constructor to make a set.
 
-Example
+Example:
+  
 Using the set() constructor to make a set:
 
 thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
