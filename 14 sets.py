@@ -14,12 +14,14 @@ print(thisset)
 '''
 Note: Sets are unordered, so you cannot be sure in which order the items will appear.
 
-Access Items
+Access Items:
+
 You cannot access items in a set by referring to an index, since sets are unordered the items has no index.
 
 But you can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the in keyword.
 
-Example
+Example:
+
 Loop through the set, and print the values:
 '''
 
@@ -36,7 +38,8 @@ print("banana" in thisset)
 Change Items
 Once a set is created, you cannot change its items, but you can add new items.
 
-Add Items
+Add Items:
+  
 To add one item to a set use the add() method.
 
 To add more than one item to a set use the update() method.
