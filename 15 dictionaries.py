@@ -85,7 +85,7 @@ for x in thisdict.values():
   print(x)
  
 '''
-Example
+Example:
 Loop through both keys and values, by using the items() function:
 '''
 
@@ -96,7 +96,7 @@ for x, y in thisdict.items():
 Check if Key Exists
 To determine if a specified key is present in a dictionary use the in keyword:
 
-Example
+Example:
 Check if "model" is present in the dictionary:
 '''
 
@@ -109,10 +109,10 @@ if "model" in thisdict:
   print("Yes, 'model' is one of the keys in the thisdict dictionary")
 
 '''
-Dictionary Length
+Dictionary Length:
 To determine how many items (key-value pairs) a dictionary has, use the len() method.
 
-Example
+Example:
 Print the number of items in the dictionary:
 '''
 print(len(thisdict))
