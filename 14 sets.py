@@ -35,7 +35,9 @@ Check if "banana" is present in the set:
 thisset = {"apple", "banana", "cherry"}
 
 print("banana" in thisset)
-Change Items
+
+Change Items:
+  
 Once a set is created, you cannot change its items, but you can add new items.
 
 Add Items:
@@ -44,7 +46,8 @@ To add one item to a set use the add() method.
 
 To add more than one item to a set use the update() method.
 
-Example
+Example:
+  
 Add an item to a set, using the add() method:
 
 thisset = {"apple", "banana", "cherry"}
@@ -52,7 +55,9 @@ thisset = {"apple", "banana", "cherry"}
 thisset.add("orange")
 
 print(thisset)
-Example
+
+Example:
+  
 Add multiple items to a set, using the update() method:
 
 thisset = {"apple", "banana", "cherry"}
@@ -61,7 +66,8 @@ thisset.update(["orange", "mango", "grapes"])
 
 print(thisset)
 
-Get the Length of a Set
+Get the Length of a Set:
+  
 To determine how many items a set has, use the len() method.
 
 Example
