@@ -274,7 +274,8 @@ print(thisdict)
 Dictionary Methods
 Python has a set of built-in methods that you can use on dictionaries.
 
-Method	Description
+Method	Description:
+'''  
 clear()	Removes all the elements from the dictionary
 copy()	Returns a copy of the dictionary
 fromkeys()	Returns a dictionary with the specified keys and value
@@ -289,6 +290,7 @@ values()	Returns a list of all the values in the dictionary
 Test Yourself With Exercises
 Exercise:
 Use the get method to print the value of the "model" key of the car dictionary.
+'''
 
 car =	{
   "brand": "Ford",
