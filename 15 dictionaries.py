@@ -17,10 +17,12 @@ thisdict = {
 }
 print(thisdict)
 '''
-Accessing Items
+Accessing Items:
+
 You can access the items of a dictionary by referring to its key name, inside square brackets:
 
-Example
+Example:
+
 Get the value of the "model" key:
 '''
 
@@ -28,7 +30,8 @@ x = thisdict["model"]
 '''
 There is also a method called get() that will give you the same result:
 
-Example
+Example:
+
 Get the value of the "model" key:
 '''
 
