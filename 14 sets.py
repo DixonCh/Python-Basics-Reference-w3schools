@@ -73,7 +73,7 @@ print(len(thisset))
 Remove Item
 To remove an item in a set, use the remove(), or the discard() method.
 
-Example
+Example:
 Remove "banana" by using the remove() method:
 
 thisset = {"apple", "banana", "cherry"}
