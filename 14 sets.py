@@ -1,8 +1,11 @@
 '''Python Sets
-Set
+
+Set:
+
 A set is a collection which is unordered and unindexed. In Python sets are written with curly brackets.
 
-Example
+Example:
+
 Create a Set:
 '''
 
