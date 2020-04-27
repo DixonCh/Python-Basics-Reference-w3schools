@@ -199,8 +199,10 @@ symmetric_difference_update()	inserts the symmetric differences from this set an
 union()	Return a set containing the union of sets
 update()	Update the set with the union of this set and others
 
-Test Yourself With Exercises
+Test Yourself With Exercises:
+  
 Exercise:
+  
 Check if "apple" is present in the fruits set.
 
 fruits = {"apple", "banana", "cherry"}
