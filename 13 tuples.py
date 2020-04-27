@@ -5,14 +5,16 @@ Tuple:
 A tuple is a collection which is ordered and unchangeable. This means you can't change the value in the tuple. 
 In Python tuples are written with round brackets.
 
-Example
+Example:
+
 Create a Tuple:
 '''
 
 thistuple = ("apple", "banana", "cherry")
 print(thistuple)
 '''
-Access Tuple Items
+Access Tuple Items:
+
 You can access tuple items by referring to the index number, inside square brackets:
 
 Example:
