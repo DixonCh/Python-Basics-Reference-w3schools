@@ -23,7 +23,8 @@ Print the second item in the tuple:
 thistuple = ("apple", "banana", "cherry")
 print(thistuple[1])
 '''
-Negative Indexing
+Negative Indexing:
+
 Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.
 
 Example:
@@ -33,7 +34,8 @@ Print the last item of the tuple:
 thistuple = ("apple", "banana", "cherry")
 print(thistuple[-1])
 '''
-Range of Indexes
+Range of Indexes:
+
 You can specify a range of indexes by specifying where to start and where to end the range.
 
 When specifying a range, the return value will be a new tuple with the specified items.
