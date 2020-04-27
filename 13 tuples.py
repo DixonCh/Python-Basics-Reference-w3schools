@@ -110,7 +110,8 @@ thistuple = ("apple", "banana", "cherry")
 print(len(thistuple))
 
 '''
-Add Items
+Add Items:
+
 Once a tuple is created, you cannot add items to it. Tuples are unchangeable.
 
 Example
