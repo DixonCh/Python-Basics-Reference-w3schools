@@ -6,7 +6,8 @@ This is less like the for keyword in other programming languages, and works more
 
 With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 
-Example
+Example:
+
 Print each fruit in a fruit list:
 '''
 fruits = ["apple", "banana", "cherry"]
@@ -16,17 +17,20 @@ for x in fruits:
 '''
 The for loop does not require an indexing variable to set beforehand.
 
-Looping Through a String
+Looping Through a String:
+
 Even strings are iterable objects, they contain a sequence of characters:
 
-Example
+Example:
+
 Loop through the letters in the word "banana":
 '''
 for x in "banana":
   print(x)
   
 '''
-The break Statement
+The break Statement:
+
 With the break statement we can stop the loop before it has looped through all the items:
 
 Example:
@@ -50,10 +54,12 @@ for x in fruits:
   print(x)
 
   '''
-The continue Statement
+The continue Statement:
+
 With the continue statement we can stop the current iteration of the loop, and continue with the next:
 
-Example
+Example:
+
 Do not print banana:
 '''
 fruits = ["apple", "banana", "cherry"]
@@ -63,7 +69,8 @@ for x in fruits:
   print(x)
   
 '''
-The range() Function
+The range() Function:
+
 To loop through a set of code a specified number of times, we can use the range() function,
 The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
 
