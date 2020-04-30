@@ -9,7 +9,8 @@ Child class is the class that inherits from another class, also called derived c
 Create a Parent Class
 Any class can be a parent class, so the syntax is the same as creating any other class:
 
-Example
+Example:
+
 Create a class named Person, with firstname and lastname properties, and a printname method:
 '''
 
@@ -25,11 +26,14 @@ class Person:
 
 x = Person("John", "Doe")
 x.printname()
+
+'''
 Create a Child Class
 To create a class that inherits the functionality from another class, send the parent class as a parameter when creating the child class:
 
 Example
 Create a class named Student, which will inherit the properties and methods from the Person class:
+'''
 
 class Student(Person):
   pass
