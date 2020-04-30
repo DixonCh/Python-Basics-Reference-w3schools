@@ -1,4 +1,4 @@
-Python Arrays
+'''Python Arrays
 Note: Python does not have built-in support for Arrays, but Python Lists can be used instead.
 
 Arrays
@@ -8,7 +8,7 @@ Arrays are used to store multiple values in one single variable:
 
 Example
 Create an array containing car names:
-
+'''
 cars = ["Ford", "Volvo", "BMW"]
 What is an Array?
 An array is a special variable, which can hold more than one value at a time.
