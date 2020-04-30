@@ -8,7 +8,8 @@ Parent class is the class being inherited from, also called base class.
 
 Child class is the class that inherits from another class, also called derived class.
 
-Create a Parent Class
+Create a Parent Class:
+
 Any class can be a parent class, so the syntax is the same as creating any other class:
 
 Example:
@@ -45,7 +46,8 @@ Note: Use the pass keyword when you do not want to add any other properties or m
 
 Now the Student class has the same properties and methods as the Person class.
 
-Example
+Example:
+  
 Use the Student class to create an object, and then execute the printname method:
 
 x = Student("Mike", "Olsen")
@@ -58,7 +60,8 @@ We want to add the __init__() function to the child class (instead of the pass k
 
 Note: The __init__() function is called automatically every time the class is being used to create a new object.
 
-Example
+Example:
+  
 Add the __init__() function to the Student class:
 
 class Student(Person):
@@ -70,7 +73,8 @@ Note: The child's __init__() function overrides the inheritance of the parent's 
 
 To keep the inheritance of the parent's __init__() function, add a call to the parent's __init__() function:
 
-Example
+Example:
+  
 class Student(Person):
   def __init__(self, fname, lname):
     Person.__init__(self, fname, lname)
@@ -79,14 +83,17 @@ Now we have successfully added the __init__() function, and kept the inheritance
 Use the super() Function
 Python also has a super() function that will make the child class inherit all the methods and properties from its parent:
 
-Example
+Example:
+  
 class Student(Person):
   def __init__(self, fname, lname):
     super().__init__(fname, lname)
 By using the super() function, you do not have to use the name of the parent element, it will automatically inherit the methods and properties from its parent.
 
-Add Properties
-Example
+Add Properties:
+  
+Example:
+  
 Add a property called graduationyear to the Student class:
 
 class Student(Person):
