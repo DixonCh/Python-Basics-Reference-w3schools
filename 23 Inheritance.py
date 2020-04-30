@@ -30,10 +30,12 @@ x = Person("John", "Doe")
 x.printname()
 
 '''
-Create a Child Class
+Create a Child Class:
+
 To create a class that inherits the functionality from another class, send the parent class as a parameter when creating the child class:
 
-Example
+Example:
+
 Create a class named Student, which will inherit the properties and methods from the Person class:
 '''
 
