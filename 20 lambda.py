@@ -49,7 +49,8 @@ mydoubler = myfunc(2)
 print(mydoubler(11))
 Or, use the same function definition to make a function that always triples the number you send in:
 
-Example
+Example:
+  
 def myfunc(n):
   return lambda a : a * n
 
@@ -58,7 +59,8 @@ mytripler = myfunc(3)
 print(mytripler(11))
 Or, use the same function definition to make both functions, in the same program:
 
-Example
+Example:
+  
 def myfunc(n):
   return lambda a : a * n
 
