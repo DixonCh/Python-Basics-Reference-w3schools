@@ -6,7 +6,8 @@ Note: This page shows you how to use LISTS as ARRAYS, however, to work with arra
 
 Arrays are used to store multiple values in one single variable:
 
-Example
+Example:
+
 Create an array containing car names:
 '''
 cars = ["Ford", "Volvo", "BMW"]
@@ -27,10 +28,12 @@ The solution is an array!
 
 An array can hold many values under a single name, and you can access the values by referring to an index number.
 
-Access the Elements of an Array
+Access the Elements of an Array:
+
 You refer to an array element by referring to the index number.
 
-Example
+Example:
+
 Get the value of the first array item:
 '''
 x = cars[0]
@@ -50,7 +53,8 @@ Note: The length of an array is always one more than the highest array index.
 Looping Array Elements
 You can use the for in loop to loop through all the elements of an array.
 
-Example
+Example:
+  
 Print each item in the cars array:
 
 for x in cars:
