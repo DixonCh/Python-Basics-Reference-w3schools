@@ -12,6 +12,7 @@ Create an array containing car names:
 cars = ["Ford", "Volvo", "BMW"]
 '''
 What is an Array?
+
 An array is a special variable, which can hold more than one value at a time.
 
 If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:
@@ -19,6 +20,7 @@ If you have a list of items (a list of car names, for example), storing the cars
 car1 = "Ford"
 car2 = "Volvo"
 car3 = "BMW"
+'''
 However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?
 
 The solution is an array!
@@ -30,7 +32,7 @@ You refer to an array element by referring to the index number.
 
 Example
 Get the value of the first array item:
-
+'''
 x = cars[0]
 Example
 Modify the value of the first array item:
