@@ -11,6 +11,7 @@ Any class can be a parent class, so the syntax is the same as creating any other
 
 Example
 Create a class named Person, with firstname and lastname properties, and a printname method:
+'''
 
 class Person:
   def __init__(self, fname, lname):
