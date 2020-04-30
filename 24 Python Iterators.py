@@ -26,7 +26,8 @@ print(next(myit))
 '''
 Even strings are iterable objects, and can return an iterator:
 
-Example
+Example:
+
 Strings are also iterable objects, containing a sequence of characters:
 '''
 mystr = "banana"
