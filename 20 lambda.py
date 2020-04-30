@@ -9,7 +9,8 @@ Syntax
 lambda arguments : expression
 The expression is executed and the result is returned:
 
-Example
+Example:
+
 A lambda function that adds 10 to the number passed in as an argument, and print the result:
 '''
 
@@ -18,7 +19,8 @@ print(x(5))
 '''
 Lambda functions can take any number of arguments:
 
-Example
+Example:
+
 A lambda function that multiplies argument a with argument b and print the result:
 '''
 x = lambda a, b : a * b
