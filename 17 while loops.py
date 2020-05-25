@@ -1,5 +1,7 @@
-'''Python While Loops
-Python Loops
+'''Python While Loops:
+
+Python Loops:
+
 Python has two primitive loop commands:
 
 while loops
@@ -59,7 +61,8 @@ while i < 6:
 else:
   print("i is no longer less than 6")
 '''
-Test Yourself With Exercises
+Test Yourself With Exercises:
+
 Exercise:
 Print i as long as i is less than 6.
 '''
