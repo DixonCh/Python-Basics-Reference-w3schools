@@ -6,8 +6,8 @@ String literals in python are surrounded by either single quotation marks, or do
 
 You can display a string literal with the print() function:
 '''
+#Example:
 
-#Example
 print("Hello")
 print('Hello')
 #Assign String to a Variable
