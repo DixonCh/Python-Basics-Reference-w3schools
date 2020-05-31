@@ -36,7 +36,8 @@ while i < 6:
     break
   i += 1
 '''
-The continue Statement
+The continue Statement:
+
 With the continue statement we can stop the current iteration, and continue with the next:
 
 Example
@@ -53,7 +54,8 @@ while i < 6:
 The else Statement
 With the else statement we can run a block of code once when the condition no longer is true:
 
-Example
+Example:
+
 Print a message once the condition is false:
 '''
 i = 1
@@ -66,6 +68,7 @@ else:
 Test Yourself With Exercises:
 
 Exercise:
+
 Print i as long as i is less than 6.
 '''
 i = 1
