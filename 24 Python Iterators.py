@@ -1,6 +1,7 @@
 '''
 Python Iterators
-Python Iterators
+Python Iterators:
+
 An iterator is an object that contains a countable number of values.
 
 An iterator is an object that can be iterated upon, meaning that you can traverse through all the values.
@@ -39,17 +40,22 @@ print(next(myit))
 print(next(myit))
 print(next(myit))
 print(next(myit))
-Looping Through an Iterator
+
+Looping Through an Iterator:
+
 We can also use a for loop to iterate through an iterable object:
 
-Example
+Example:
+
 Iterate the values of a tuple:
 
 mytuple = ("apple", "banana", "cherry")
 
 for x in mytuple:
   print(x)
-Example
+
+Example:
+
 Iterate the characters of a string:
 
 mystr = "banana"
@@ -67,7 +73,8 @@ The __iter__() method acts similar, you can do operations (initializing etc.), b
 
 The __next__() method also allows you to do operations, and must return the next item in the sequence.
 
-Example
+Example:
+
 Create an iterator that returns numbers, starting with 1, and each sequence will increase by one (returning 1,2,3,4,5 etc.):
 
 class MyNumbers:
