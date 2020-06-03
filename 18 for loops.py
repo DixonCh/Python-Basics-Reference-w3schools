@@ -8,7 +8,8 @@ object-orientated programming languages.
 
 With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 
-Example
+Example:
+
 Print each fruit in a fruit list:
 '''
 
@@ -19,10 +20,12 @@ for x in fruits:
 '''
 The for loop does not require an indexing variable to set beforehand.
 
-Looping Through a String
+Looping Through a String:
+
 Even strings are iterable objects, they contain a sequence of characters:
 
-Example
+Example:
+
 Loop through the letters in the word "banana":
 '''
 
@@ -30,7 +33,8 @@ for x in "banana":
   print(x)
   
  '''
-The break Statement
+The break Statement:
+
 With the break statement we can stop the loop before it has looped through all the items:
 
 Example:
