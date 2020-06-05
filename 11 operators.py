@@ -13,7 +13,6 @@ Membership operators
 Bitwise operators
 # ****************************************************
 Python Arithmetic Operators:
-
 Arithmetic operators are used with numeric values to perform common mathematical operations:
 
 Operator	Name	                Example	     Try it
