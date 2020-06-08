@@ -52,6 +52,7 @@ thisdict = {
   "model": "Mustang",
   "year": 1964
 }
+
 thisdict["year"] = 2018
 '''
 Loop Through a Dictionary:
@@ -70,6 +71,7 @@ for x in thisdict:
   
 '''
 Example:
+
 Print all values in the dictionary, one by one:
 '''
 
@@ -86,6 +88,7 @@ for x in thisdict.values():
  
 '''
 Example:
+
 Loop through both keys and values, by using the items() function:
 '''
 
@@ -97,6 +100,7 @@ Check if Key Exists
 To determine if a specified key is present in a dictionary use the in keyword:
 
 Example:
+
 Check if "model" is present in the dictionary:
 '''
 
