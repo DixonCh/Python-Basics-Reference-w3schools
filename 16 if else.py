@@ -1,5 +1,7 @@
-'''Python If ... Else
-Python Conditions and If statements
+'''Python If ... Else:
+
+Python Conditions and If statements:
+
 Python supports the usual logical conditions from mathematics:
 
 Equals: a == b
