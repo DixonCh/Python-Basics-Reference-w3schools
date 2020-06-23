@@ -82,7 +82,8 @@ print(x)
 Loop Through a Tuple
 You can loop through the tuple items by using a for loop.
 
-Example
+Example:
+
 Iterate through the items and print the values:
 '''
 thistuple = ("apple", "banana", "cherry")
