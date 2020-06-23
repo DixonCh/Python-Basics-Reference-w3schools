@@ -21,6 +21,7 @@ Example:
 Print the second item in the tuple:
 '''
 thistuple = ("apple", "banana", "cherry")
+
 print(thistuple[1])
 '''
 Negative Indexing:
@@ -40,7 +41,7 @@ You can specify a range of indexes by specifying where to start and where to end
 
 When specifying a range, the return value will be a new tuple with the specified items.
 
-Example
+Example:
 Return the third, fourth, and fifth item:
 '''
 
@@ -51,7 +52,7 @@ Note: The search will start at index 2 (included) and end at index 5 (not includ
 
 Remember that the first item has index 0.
 
-Range of Negative Indexes
+Range of Negative Indexes:
 Specify negative indexes if you want to start the search from the end of the tuple:
 
 Example
@@ -61,12 +62,14 @@ This example returns the items from index -4 (included) to index -1 (excluded)
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(thistuple[-4:-1])
 '''
-Change Tuple Values
+Change Tuple Values:
+
 Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
 
 But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
 
-Example
+Example:
+
 Convert the tuple into a list to be able to change it:
 '''
 x = ("apple", "banana", "cherry")
