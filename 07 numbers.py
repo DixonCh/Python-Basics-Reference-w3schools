@@ -78,10 +78,13 @@ z = -5j
 print(type(x))
 print(type(y))
 print(type(z))
-Type Conversion
+
+Type Conversion:
+  
 You can convert from one type to another with the int(), float(), and complex() methods:
 
-Example
+Example:
+  
 Convert from one type to another:
 
 x = 1 # int
