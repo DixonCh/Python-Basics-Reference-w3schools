@@ -17,6 +17,7 @@ thisdict = {
 }
 print(thisdict)
 '''
+
 Accessing Items:
 
 You can access the items of a dictionary by referring to its key name, inside square brackets:
@@ -96,7 +97,8 @@ for x, y in thisdict.items():
   print(x, y)
  
 '''
-Check if Key Exists
+Check if Key Exists:
+
 To determine if a specified key is present in a dictionary use the in keyword:
 
 Example:
@@ -152,7 +154,8 @@ thisdict.pop("model")
 print(thisdict)
 
 '''
-Example
+Example:
+
 The popitem() method removes the last inserted item (in versions before 3.7, a random item is removed instead):
 '''
 
@@ -163,6 +166,7 @@ thisdict = {
 }
 thisdict.popitem()
 print(thisdict)
+
 '''
 Example
 The del keyword removes the item with the specified key name:
@@ -175,7 +179,8 @@ thisdict = {
 del thisdict["model"]
 print(thisdict)
 '''
-Example
+Example:
+
 The del keyword can also delete the dictionary completely:
 '''
 thisdict = {
