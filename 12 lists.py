@@ -1,5 +1,7 @@
-Python Lists
-Python Collections (Arrays)
+Python Lists:
+  
+Python Collections (Arrays):
+  
 There are four collection data types in the Python programming language:
 
 List is a collection which is ordered and changeable. Allows duplicate members.
