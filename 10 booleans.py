@@ -15,7 +15,8 @@ print(10 == 9)
 print(10 < 9)
 #When you run a condition in an if statement, Python returns True or False:
 
-#Example
+#Example:
+
 #Print a message based on whether the condition is True or False:
 
 a = 200
@@ -29,7 +30,8 @@ else:
 #Evaluate Values and Variables
 #The bool() function allows you to evaluate any value, and give you True or False in return,
 
-#Example
+#Example:
+
 #Evaluate a string and a number:
 
 print(bool("Hello"))
@@ -54,7 +56,8 @@ Any number is True, except 0.
 
 Any list, tuple, set, and dictionary are True, except empty ones.
 
-Example
+Example:
+  
 The following will return True:
 
 bool("abc")
