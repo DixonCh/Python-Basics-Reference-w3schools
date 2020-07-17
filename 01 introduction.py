@@ -25,7 +25,7 @@ Python runs on an interpreter system, meaning that code can be executed as soon 
 This means that prototyping can be very quick.
 Python can be treated in a procedural way, an object-orientated way or a functional way.
 
-Good to know
+Good to know:
 
 The most recent major version of Python is Python 3, which we shall be using in this tutorial. 
 
