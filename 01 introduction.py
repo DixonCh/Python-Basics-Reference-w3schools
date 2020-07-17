@@ -35,7 +35,8 @@ In this tutorial Python will be written in a text editor.
 It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse 
 which are particularly useful when managing larger collections of Python files.
 
-Python Syntax compared to other programming languages
+Python Syntax compared to other programming languages.
+
 Python was designed for readability, and has some similarities to the English language with influence from mathematics.
 
 Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
