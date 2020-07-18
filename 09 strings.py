@@ -15,13 +15,15 @@ print('Hello')
 #Assign String to a Variable
 #Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
 
-#Example
+#Example:
+
 a = "Hello"
 print(a)
 #Multiline Strings
 #You can assign a multiline string to a variable by using three quotes:
 
-#Example
+#Example:
+
 #You can use three double quotes:
 
 a = """Lorem ipsum dolor sit amet,
@@ -32,7 +34,8 @@ print(a)
 
 #Or three single quotes:
 
-#Example
+#Example:
+
 a = '''Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
@@ -48,19 +51,22 @@ However, Python does not have a character data type, a single character is simpl
 
 Square brackets can be used to access elements of the string.
 
-Example
+Example:
+
 Get the character at position 1 (remember that the first character has the position 0):
 '''
 
 a = "Hello, World!"
 print(a[1])
 '''
-Slicing
+Slicing:
+
 You can return a range of characters by using the slice syntax.
 
 Specify the start index and the end index, separated by a colon, to return a part of the string.
 
-Example
+Example:
+
 Get the characters from position 2 to position 5 (not included):
 '''
 
