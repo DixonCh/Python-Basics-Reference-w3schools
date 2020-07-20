@@ -32,7 +32,8 @@ x = "John"
 x = 'John'
 
 
-'''Variable Names
+'''Variable Names:
+
 1. A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
 2. A variable name must start with a letter or the underscore character
 3. A variable name cannot start with a number
@@ -41,6 +42,7 @@ x = 'John'
 '''
 
 #Example:
+
 #Legal variable names:
 myvar = "John"
 my_var = "John"
@@ -118,7 +120,8 @@ Variables that are created outside of a function (as in all of the examples abov
 
 Global variables can be used by everyone, both inside of functions and outside.
 
-Example
+Example:
+
 Create a variable outside of a function, and use it inside the function
 '''
 
