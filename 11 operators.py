@@ -1,5 +1,7 @@
-''' Python Operators
-Python Operators
+''' Python Operators:
+
+Python Operators:
+
 Operators are used to perform operations on variables and values.
 
 Python divides the operators in the following groups:
@@ -13,6 +15,7 @@ Membership operators
 Bitwise operators
 # ****************************************************
 Python Arithmetic Operators:
+
 Arithmetic operators are used with numeric values to perform common mathematical operations:
 
 Operator	Name	                Example	     Try it
@@ -25,7 +28,8 @@ Operator	Name	                Example	     Try it
 **	      Exponentiation	      x ** y	
 //	      Floor division	      x // y	
 
-#Python Assignment Operators
+#Python Assignment Operators:
+
 #Assignment operators are used to assign values to variables:
 
 #Operator	Example	Same As	Try it
@@ -44,7 +48,8 @@ Operator	Name	                Example	     Try it
 >>=	x >>= 3	x = x >> 3	
 <<=	x <<= 3	x = x << 3	
 
-#Python Comparison Operators
+#Python Comparison Operators:
+
 #Comparison operators are used to compare two values:
 
 #Operator	Name	Example	Try it
