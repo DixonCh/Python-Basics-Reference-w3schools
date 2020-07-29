@@ -1,5 +1,6 @@
 '''
-Python Syntax
+Python Syntax:
+
 On this page
 Execute Python Syntax
 Python Indentation
@@ -37,14 +38,16 @@ if 5 > 2:
 print("Five is greater than two!")
 The number of spaces is up to you as a programmer, but it has to be at least one.
 
-Example
+Example:
+  
 if 5 > 2:
  print("Five is greater than two!") 
 if 5 > 2:
         print("Five is greater than two!") 
 You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
 
-Example
+Example:
+  
 Syntax Error:
 
 if 5 > 2:
