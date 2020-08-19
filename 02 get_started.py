@@ -1,3 +1,4 @@
+'''
 Python Install
 Many PCs and Macs will have python already installed.
 
@@ -66,4 +67,4 @@ Hello, World!
 Whenever you are done in the python command line, you can simply type the following to quit the python command line interface:
 
 exit()
-
+'''
