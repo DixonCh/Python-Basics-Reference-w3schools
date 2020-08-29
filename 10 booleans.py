@@ -9,7 +9,8 @@ You can evaluate any expression in Python, and get one of two answers, True or F
 
 When you compare two values, the expression is evaluated and Python returns the Boolean answer:
 '''
-#Example
+#Example:
+
 print(10 > 9)
 print(10 == 9)
 print(10 < 9)
