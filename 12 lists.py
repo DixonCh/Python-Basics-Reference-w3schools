@@ -42,25 +42,29 @@ You can specify a range of indexes by specifying where to start and where to end
 
 When specifying a range, the return value will be a new list with the specified items.
 
-Example
+Example:
+  
 Return the third, fourth, and fifth item:
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
+
 Note: The search will start at index 2 (included) and end at index 5 (not included).
 
 Remember that the first item has index 0.
 
 By leaving out the start value, the range will start at the first item:
 
-Example
+Example:
+  
 This example returns the items from the beginning to "orange":
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[:4])
 By leaving out the end value, the range will go on to the end of the list:
 
-Example
+Example:
+  
 This example returns the items from "cherry" and to the end:
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
