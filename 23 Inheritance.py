@@ -80,7 +80,8 @@ class Student(Person):
     Person.__init__(self, fname, lname)
 Now we have successfully added the __init__() function, and kept the inheritance of the parent class, and we are ready to add functionality in the __init__() function.
 
-Use the super() Function
+Use the super() Function:
+  
 Python also has a super() function that will make the child class inherit all the methods and properties from its parent:
 
 Example:
@@ -102,7 +103,8 @@ class Student(Person):
     self.graduationyear = 2019
 In the example below, the year 2019 should be a variable, and passed into the Student class when creating student objects. To do so, add another parameter in the __init__() function:
 
-Example
+Example:
+  
 Add a year parameter, and pass the correct year when creating objects:
 
 class Student(Person):
@@ -111,8 +113,11 @@ class Student(Person):
     self.graduationyear = year
 
 x = Student("Mike", "Olsen", 2019)
-Add Methods
-Example
+
+Add Methods:
+
+Example:
+  
 Add a method called welcome to the Student class:
 
 class Student(Person):
