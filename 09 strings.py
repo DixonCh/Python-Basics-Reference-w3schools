@@ -1,4 +1,4 @@
-''''Python Strings
+''''Python Strings:
 
 String Literals:
 
@@ -73,9 +73,11 @@ Get the characters from position 2 to position 5 (not included):
 b = "Hello, World!"
 print(b[2:5])
 '''
-Negative Indexing
+Negative Indexing:
+
 Use negative indexes to start the slice from the end of the string:
-Example
+
+Example:
 Get the characters from position 5 to position 1, starting the count from the end of the string:
 '''
 b = "Hello, World!"
@@ -84,7 +86,8 @@ print(b[-5:-2])
 #String Length
 #To get the length of a string, use the len() function.
 
-#Example
+#Example:
+
 #The len() function returns the length of a string:
 
 a = "Hello, World!"
