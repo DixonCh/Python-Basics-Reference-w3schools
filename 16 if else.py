@@ -32,6 +32,7 @@ Indentation:
 Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.
 
 Example:
+
 If statement, without indentation (will raise an error):
 '''
   
@@ -43,7 +44,7 @@ print("b is greater than a") # you will get an error
 Elif
 The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
 
-Example
+Example:
 '''
 
 a = 33
