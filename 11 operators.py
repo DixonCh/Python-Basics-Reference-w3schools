@@ -32,7 +32,7 @@ Operator	Name	                Example	     Try it
 
 #Assignment operators are used to assign values to variables:
 
-#Operator	Example	Same As	Try it
+#Operator	Example	Same As	Try it:
 
 =	x = 5	x = 5	
 +=	x += 3	x = x + 3	
@@ -84,7 +84,7 @@ Python Bitwise Operators
 Bitwise operators are used to compare (binary) numbers:
 '''
 
-#Operator	Name	Description
+#Operator	Name	Description:
 '''
 & 	AND	Sets each bit to 1 if both bits are 1
 |	OR	Sets each bit to 1 if one of two bits is 1
