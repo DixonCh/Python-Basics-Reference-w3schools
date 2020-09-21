@@ -56,7 +56,8 @@ Remember that the first item has index 0.
 Range of Negative Indexes:
 Specify negative indexes if you want to start the search from the end of the tuple:
 
-Example
+Example:
+
 This example returns the items from index -4 (included) to index -1 (excluded)
 '''
 
@@ -96,7 +97,8 @@ You will learn more about for loops in our Python For Loops Chapter.
 Check if Item Exists
 To determine if a specified item is present in a tuple use the in keyword:
 
-Example
+Example:
+
 Check if "apple" is present in the tuple:
 '''
 thistuple = ("apple", "banana", "cherry")
@@ -104,10 +106,12 @@ if "apple" in thistuple:
   print("Yes, 'apple' is in the fruits tuple")
  
 '''
-Tuple Length
+Tuple Length:
+
 To determine how many items a tuple has, use the len() method:
 
-Example
+Example:
+
 Print the number of items in the tuple:
 '''
 
@@ -119,7 +123,8 @@ Add Items:
 
 Once a tuple is created, you cannot add items to it. Tuples are unchangeable.
 
-Example
+Example:
+
 You cannot add items to a tuple:
 '''
 
@@ -127,10 +132,12 @@ thistuple = ("apple", "banana", "cherry")
 thistuple[3] = "orange" # This will raise an error
 print(thistuple)
 '''
-Create Tuple With One Item
+Create Tuple With One Item:
+
 To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
 
-Example
+Example:
+
 One item tuple, remember the commma:
 '''
 
@@ -141,22 +148,26 @@ print(type(thistuple))
 thistuple = ("apple")
 print(type(thistuple))
 '''
-Remove Items
+Remove Items:
+
 Note: You cannot remove items in a tuple.
 
 Tuples are unchangeable, so you cannot remove items from it, but you can delete the tuple completely:
 
-Example
+Example:
+
 The del keyword can delete the tuple completely:
 '''
 thistuple = ("apple", "banana", "cherry")
 del thistuple
 print(thistuple) #this will raise an error because the tuple no longer exists
 '''
-Join Two Tuples
+Join Two Tuples:
+
 To join two or more tuples you can use the + operator:
 
-Example
+Example:
+
 Join two tuples:
 '''
 tuple1 = ("a", "b" , "c")
