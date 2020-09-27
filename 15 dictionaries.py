@@ -294,7 +294,7 @@ print(thisdict)
 Dictionary Methods
 Python has a set of built-in methods that you can use on dictionaries.
 
-Method	Description:
+Method	            Description:
 '''  
 clear()	            Removes all the elements from the dictionary
 copy()	            Returns a copy of the dictionary
