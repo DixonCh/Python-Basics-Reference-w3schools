@@ -45,4 +45,3 @@ Python uses new lines to complete a command, as opposed to other programming lan
 Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. 
 
 Other programming languages often use curly-brackets for this purpose.
-
