@@ -14,7 +14,8 @@ python --version
 If you find that you do not have python installed on your computer, then you can download it for free from the following website:
 https://www.python.org/
 
-Python Quickstart
+Python Quickstart:
+
 Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.
 
 The way to run a python file is like this on the command line:
@@ -37,11 +38,11 @@ The output should read:
 
 Hello, World!
 
-
 Congratulations, you have written and executed your first Python program.
 
 
-The Python Command Line
+The Python Command Line:
+
 To test a short amount of code in python sometimes it is quickest and easiest not to write the code in a file. 
 This is made possible because Python can be run as a command line itself.
 
