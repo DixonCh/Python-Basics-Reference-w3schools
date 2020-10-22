@@ -72,14 +72,17 @@ print(thislist[2:])
 Range of Negative Indexes
 Specify negative indexes if you want to start the search from the end of the list:
 
-Example
+Example:
+  
 This example returns the items from index -4 (included) to index -1 (excluded)
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[-4:-1])
-Change Item Value
+
+Change Item Value:
 To change the value of a specific item, refer to the index number:
-Example
+  
+Example:
 Change the second item:
 
 thislist = ["apple", "banana", "cherry"]
