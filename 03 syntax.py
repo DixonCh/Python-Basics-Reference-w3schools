@@ -24,7 +24,7 @@ Where in other programming languages the indentation in code is for readability 
 
 Python uses indentation to indicate a block of code.
 
-Example
+Example:
 '''
   
 if 5 > 2:
