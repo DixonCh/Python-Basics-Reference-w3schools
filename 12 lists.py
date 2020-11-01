@@ -20,10 +20,11 @@ Create a List:
 
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
-Access Items
+
+Access Items:
 You access the list items by referring to the index number:
 
-Example
+Example:
 Print the second item of the list:
 
 thislist = ["apple", "banana", "cherry"]
@@ -37,7 +38,8 @@ Print the last item of the list:
 
 thislist = ["apple", "banana", "cherry"]
 print(thislist[-1])
-Range of Indexes
+
+Range of Indexes:
 You can specify a range of indexes by specifying where to start and where to end the range.
 
 When specifying a range, the return value will be a new list with the specified items.
