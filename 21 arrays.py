@@ -43,16 +43,20 @@ Example
 Modify the value of the first array item:
 
 cars[0] = "Toyota"
-The Length of an Array
+
+The Length of an Array:
+  
 Use the len() method to return the length of an array (the number of elements in an array).
 
-Example
+Example:
+  
 Return the number of elements in the cars array:
 
 x = len(cars)
 Note: The length of an array is always one more than the highest array index.
 
-Looping Array Elements
+Looping Array Elements:
+  
 You can use the for in loop to loop through all the elements of an array.
 
 Example:
@@ -61,10 +65,13 @@ Print each item in the cars array:
 
 for x in cars:
   print(x)
-Adding Array Elements
+  
+Adding Array Elements:
+  
 You can use the append() method to add an element to an array.
 
-Example
+Example:
+  
 Add one more element to the cars array:
 
 cars.append("Honda")
