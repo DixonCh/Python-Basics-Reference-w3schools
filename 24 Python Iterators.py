@@ -63,7 +63,8 @@ for x in mystr:
   print(x)
 The for loop actually creates an iterator object and executes the next() method for each loop.
 
-Create an Iterator
+Create an Iterator:
+  
 To create an object/class as an iterator you have to implement the methods __iter__() and __next__() to your object.
 
 As you have learned in the Python Classes/Objects chapter, all classes have a function called __init__(), which allows you to do some initializing when the object is being created.
