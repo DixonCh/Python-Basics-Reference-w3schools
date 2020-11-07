@@ -103,14 +103,16 @@ print(len(a))
 a = " Hello, World! "
 print(a.strip()) # returns "Hello, World!"
 
-'''Example
+'''Example:
+
 The lower() method returns the string in lower case:
 '''
 
 a = "Hello, World!"
 print(a.lower())
 
-'''Example
+'''Example:
+
 The upper() method returns the string in upper case:
 '''
 a = "Hello, World!"
@@ -128,16 +130,20 @@ a = "Hello, World!"
 print(a.split(",")) # returns ['Hello', ' World!']
 Learn more about String Methods with our String Methods Reference
 
-Check String
+Check String:
+  
 To check if a certain phrase or character is present in a string, we can use the keywords in or not in.
 
-Example
+Example:
+  
 Check if the phrase "ain" is present in the following text:
 
 txt = "The rain in Spain stays mainly in the plain"
 x = "ain" in txt
 print(x)
-Example
+
+Example:
+  
 Check if the phrase "ain" is NOT present in the following text:
 
 txt = "The rain in Spain stays mainly in the plain"
