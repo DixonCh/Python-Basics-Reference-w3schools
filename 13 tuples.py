@@ -43,6 +43,7 @@ You can specify a range of indexes by specifying where to start and where to end
 When specifying a range, the return value will be a new tuple with the specified items.
 
 Example:
+
 Return the third, fourth, and fifth item:
 '''
 
@@ -54,6 +55,7 @@ Note: The search will start at index 2 (included) and end at index 5 (not includ
 Remember that the first item has index 0.
 
 Range of Negative Indexes:
+
 Specify negative indexes if you want to start the search from the end of the tuple:
 
 Example:
@@ -185,7 +187,8 @@ Using the tuple() method to make a tuple:
 thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 print(thistuple)
 '''
-Tuple Methods
+Tuple Methods:
+
 Python has two built-in methods that you can use on tuples.
 
 Method	Description
