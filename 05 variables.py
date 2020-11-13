@@ -21,6 +21,7 @@ print(y)
 
 x = 4 # x is a variable of type int
 x = "Sally" # x is now of type str
+
 print(x)
 
 #String variables can be declared either by using single or double quotes:
