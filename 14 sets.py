@@ -79,7 +79,9 @@ Get the number of items in a set:
 thisset = {"apple", "banana", "cherry"}
 
 print(len(thisset))
-Remove Item
+
+Remove Item:
+  
 To remove an item in a set, use the remove(), or the discard() method.
 
 Example:
@@ -91,6 +93,7 @@ thisset = {"apple", "banana", "cherry"}
 thisset.remove("banana")
 
 print(thisset)
+
 Note: If the item to remove does not exist, remove() will raise an error.
 
 Example:
