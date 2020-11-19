@@ -143,7 +143,8 @@ print(thislist)
 Remove Item
 There are several methods to remove items from a list:
 
-Example
+Example:
+  
 The remove() method removes the specified item:
 
 thislist = ["apple", "banana", "cherry"]
@@ -172,12 +173,15 @@ The clear() method empties the list:
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
 print(thislist)
-Copy a List
+
+Copy a List:
+  
 You cannot copy a list simply by typing list2 = list1, because: list2 will only be a reference to list1, and changes made in list1 will automatically also be made in list2.
 
 There are ways to make a copy, one way is to use the built-in List method copy().
 
-Example
+Example:
+  
 Make a copy of a list with the copy() method:
 
 thislist = ["apple", "banana", "cherry"]
