@@ -22,14 +22,18 @@ thislist = ["apple", "banana", "cherry"]
 print(thislist)
 
 Access Items:
+  
 You access the list items by referring to the index number:
 
 Example:
+  
 Print the second item of the list:
 
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1])
-Negative Indexing
+
+Negative Indexing:
+  
 Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.
 
 Example:
