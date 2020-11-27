@@ -16,10 +16,12 @@ def myfunc():
 
 myfunc()
 '''
-Function Inside Function
+Function Inside Function:
+
 As explained in the example above, the variable x is not available outside the function, but it is available for any function inside the function:
 
-Example
+Example:
+
 The local variable can be accessed from a function within the function:
 '''
 def myfunc():
@@ -30,7 +32,9 @@ def myfunc():
 
 myfunc()
 '''
-Global Scope
+
+Global Scope:
+
 A variable created in the main body of the Python code is a global variable and belongs to the global scope.
 
 Global variables are available from within any scope, global and local.
