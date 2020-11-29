@@ -61,7 +61,7 @@ In this example a is equal to b, so the first condition is not true, but the eli
 Else
 The else keyword catches anything which isn't caught by the preceding conditions.
 
-Example
+Example:
 '''
 
 a = 200
