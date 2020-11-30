@@ -1,5 +1,6 @@
 '''
-Python Install
+Python Install:
+
 Many PCs and Macs will have python already installed.
 
 To check if you have python installed on a Windows PC, 
