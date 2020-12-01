@@ -6,8 +6,11 @@ Execute Python Syntax
 Python Indentation
 Python Variables
 Python Comments
-Exercises
-Execute Python Syntax
+
+Exercises:
+
+Execute Python Syntax:
+
 As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:
 '''
 
