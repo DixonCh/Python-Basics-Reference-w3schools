@@ -36,7 +36,9 @@ z = -3255522
 print(type(x))
 print(type(y))
 print(type(z))
-Float
+
+Float:
+  
 Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
 
 Example:
