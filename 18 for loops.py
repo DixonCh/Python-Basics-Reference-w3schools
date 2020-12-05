@@ -72,6 +72,7 @@ for x in fruits:
     continue
   print(x)
 ''' 
+
 The range() Function:
 
 To loop through a set of code a specified number of times, we can use the range() function,
