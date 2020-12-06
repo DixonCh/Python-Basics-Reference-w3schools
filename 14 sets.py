@@ -128,6 +128,7 @@ print(thisset)
 Note: Sets are unordered, so when using the pop() method, you will not know which item that gets removed.
 
 Example:
+  
 The clear() method empties the set:
 
 thisset = {"apple", "banana", "cherry"}
@@ -137,6 +138,7 @@ thisset.clear()
 print(thisset)
 
 Example:
+  
 The del keyword will delete the set completely:
 
 thisset = {"apple", "banana", "cherry"}
@@ -144,7 +146,9 @@ thisset = {"apple", "banana", "cherry"}
 del thisset
 
 print(thisset)
-Join Two Sets
+
+Join Two Sets:
+  
 There are several ways to join two or more sets in Python.
 
 You can use the union() method that returns a new set containing all items from both sets, or the update() method that inserts all the items from one set into another:
