@@ -27,11 +27,13 @@ A lambda function that multiplies argument a with argument b and print the resul
 x = lambda a, b : a * b
 print(x(5, 6))
 '''
-Example
+Example:
+
 A lambda function that sums argument a, b, and c and print the result:
 '''
 x = lambda a, b, c : a + b + c
 print(x(5, 6, 2))
+
 Why Use Lambda Functions?
 The power of lambda is better shown when you use them as an anonymous function inside another function.
 
