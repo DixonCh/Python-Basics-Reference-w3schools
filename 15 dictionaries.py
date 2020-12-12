@@ -171,7 +171,8 @@ thisdict.popitem()
 print(thisdict)
 
 '''
-Example
+Example:
+
 The del keyword removes the item with the specified key name:
 '''
 thisdict = {
@@ -194,7 +195,7 @@ thisdict = {
 del thisdict
 print(thisdict) #this will cause an error because "thisdict" no longer exists.
 '''
-Example
+Example:
 The clear() method empties the dictionary:
 '''
 
