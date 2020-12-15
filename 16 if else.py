@@ -41,7 +41,9 @@ b = 200
 if b > a:
 print("b is greater than a") # you will get an error
 '''
-Elif
+
+Elif:
+
 The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
 
 Example:
