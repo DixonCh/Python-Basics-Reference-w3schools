@@ -21,7 +21,8 @@ class MyClass:
 Create Object
 Now we can use the class named MyClass to create objects:
 
-Example
+Example:
+  
 Create an object named p1, and print the value of x:
 
 p1 = MyClass()
