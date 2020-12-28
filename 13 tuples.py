@@ -150,6 +150,7 @@ print(type(thistuple))
 thistuple = ("apple")
 print(type(thistuple))
 '''
+
 Remove Items:
 
 Note: You cannot remove items in a tuple.
