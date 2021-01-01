@@ -12,6 +12,7 @@ You can display a string literal with the print() function:
 
 print("Hello")
 print('Hello')
+
 #Assign String to a Variable
 #Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
 
@@ -44,7 +45,8 @@ print(a)
 
 #Note: in the result, the line breaks are inserted at the same position as in the code.
 
-'''Strings are Arrays
+'''Strings are Arrays:
+
 Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters.
 
 However, Python does not have a character data type, a single character is simply a string with a length of 1.
@@ -59,6 +61,7 @@ Get the character at position 1 (remember that the first character has the posit
 a = "Hello, World!"
 print(a[1])
 '''
+
 Slicing:
 
 You can return a range of characters by using the slice syntax.
@@ -185,7 +188,8 @@ txt = "My name is John, and I am {}"
 print(txt.format(age))
 The format() method takes unlimited number of arguments, and are placed into the respective placeholders:
 
-Example
+Example:
+  
 quantity = 3
 itemno = 567
 price = 49.95
