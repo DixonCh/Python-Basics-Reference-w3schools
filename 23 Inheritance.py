@@ -42,6 +42,7 @@ Create a class named Student, which will inherit the properties and methods from
 
 class Student(Person):
   pass
+
 Note: Use the pass keyword when you do not want to add any other properties or methods to the class.
 
 Now the Student class has the same properties and methods as the Person class.
@@ -54,6 +55,7 @@ x = Student("Mike", "Olsen")
 x.printname()
 
 Add the __init__() Function
+
 So far we have created a child class that inherits the properties and methods from its parent.
 
 We want to add the __init__() function to the child class (instead of the pass keyword).
