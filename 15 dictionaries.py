@@ -121,6 +121,7 @@ Dictionary Length:
 To determine how many items (key-value pairs) a dictionary has, use the len() method.
 
 Example:
+
 Print the number of items in the dictionary:
 '''
 print(len(thisdict))
@@ -130,7 +131,8 @@ Adding Items:
 
 Adding an item to the dictionary is done by using a new index key and assigning a value to it:
 
-Example
+Example:
+
 '''
 
 thisdict = {
@@ -141,7 +143,9 @@ thisdict = {
 thisdict["color"] = "red"
 print(thisdict)
 '''
-Removing Items
+
+Removing Items:
+
 There are several methods to remove items from a dictionary:
 
 Example
