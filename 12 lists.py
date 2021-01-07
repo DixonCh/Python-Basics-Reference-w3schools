@@ -44,6 +44,7 @@ thislist = ["apple", "banana", "cherry"]
 print(thislist[-1])
 
 Range of Indexes:
+  
 You can specify a range of indexes by specifying where to start and where to end the range.
 
 When specifying a range, the return value will be a new list with the specified items.
@@ -98,7 +99,8 @@ print(thislist)
 Loop Through a List
 You can loop through the list items by using a for loop:
 
-Example
+Example:
+  
 Print all items in the list, one by one:
 
 thislist = ["apple", "banana", "cherry"]
