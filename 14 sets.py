@@ -185,7 +185,8 @@ Using the set() constructor to make a set:
 
 thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
 print(thisset)
-Set Methods
+
+Set Methods:
 Python has a set of built-in methods that you can use on sets.
 
 Method	          Description:
