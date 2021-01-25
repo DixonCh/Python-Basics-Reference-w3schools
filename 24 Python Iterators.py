@@ -61,6 +61,7 @@ mystr = "banana"
 
 for x in mystr:
   print(x)
+  
 The for loop actually creates an iterator object and executes the next() method for each loop.
 
 Create an Iterator:
@@ -78,6 +79,7 @@ Example:
 Create an iterator that returns numbers, starting with 1, and each sequence will increase by one (returning 1,2,3,4,5 etc.):
 
 class MyNumbers:
+  
   def __iter__(self):
     self.a = 1
     return self
@@ -95,7 +97,9 @@ print(next(myiter))
 print(next(myiter))
 print(next(myiter))
 print(next(myiter))
-StopIteration
+
+StopIteration:
+  
 The example above would continue forever if you had enough next() statements, or if it was used in a for loop.
 
 To prevent the iteration to go on forever, we can use the StopIteration statement.
