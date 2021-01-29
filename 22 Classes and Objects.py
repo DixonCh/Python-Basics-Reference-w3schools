@@ -17,8 +17,11 @@ Example:
 Create a class named MyClass, with a property named x:
 
 class MyClass:
+  
   x = 5
-Create Object
+  
+Create Object:
+  
 Now we can use the class named MyClass to create objects:
 
 Example:
