@@ -39,7 +39,9 @@ Example:
 Get the value of the first array item:
 '''
 x = cars[0]
-Example
+
+Example:
+  
 Modify the value of the first array item:
 
 cars[0] = "Toyota"
@@ -53,6 +55,7 @@ Example:
 Return the number of elements in the cars array:
 
 x = len(cars)
+
 Note: The length of an array is always one more than the highest array index.
 
 Looping Array Elements:
@@ -78,7 +81,8 @@ cars.append("Honda")
 Removing Array Elements
 You can use the pop() method to remove an element from the array.
 
-Example
+Example:
+  
 Delete the second element of the cars array:
 
 cars.pop(1)
