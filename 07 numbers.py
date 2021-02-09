@@ -22,7 +22,8 @@ print(type(x))
 print(type(y))
 print(type(z))
 
-Int
+Int:
+  
 Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
 
 Example:
