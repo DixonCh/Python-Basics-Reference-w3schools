@@ -73,6 +73,7 @@ Python Identity Operators
 Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
 
 Operator	Description	Example	Try it
+
 is 	Returns True if both variables are the same object	x is y	
 is not	Returns True if both variables are not the same object	x is not y	
 Python Membership Operators
@@ -94,8 +95,10 @@ Bitwise operators are used to compare (binary) numbers:
 <<	Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off
 >>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
 
-Test Yourself With Exercises
+Test Yourself With Exercises:
+
 Exercise:
+
 Multiply 10 with 5, and print the result.
 '''
 print(10 
