@@ -2,7 +2,8 @@
 '''
 Tuple:
 
-A tuple is a collection which is ordered and unchangeable. This means you can't change the value in the tuple. 
+A tuple is a collection which is ordered and unchangeable. This means you can't change the value in the tuple.
+
 In Python tuples are written with round brackets.
 
 Example:
@@ -11,6 +12,7 @@ Create a Tuple:
 '''
 
 thistuple = ("apple", "banana", "cherry")
+
 print(thistuple)
 '''
 Access Tuple Items:
@@ -30,6 +32,7 @@ Negative Indexing:
 Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.
 
 Example:
+
 Print the last item of the tuple:
 '''
 
@@ -96,7 +99,8 @@ for x in thistuple:
   '''
 You will learn more about for loops in our Python For Loops Chapter.
 
-Check if Item Exists
+Check if Item Exists:
+
 To determine if a specified item is present in a tuple use the in keyword:
 
 Example:
