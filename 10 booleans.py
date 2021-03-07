@@ -15,6 +15,7 @@ When you compare two values, the expression is evaluated and Python returns the 
 print(10 > 9)
 print(10 == 9)
 print(10 < 9)
+
 #When you run a condition in an if statement, Python returns True or False:
 
 #Example:
@@ -30,6 +31,7 @@ else:
   print("b is not greater than a")
   
 #Evaluate Values and Variables
+
 #The bool() function allows you to evaluate any value, and give you True or False in return,
 
 #Example:
