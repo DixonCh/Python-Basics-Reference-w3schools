@@ -44,6 +44,7 @@ for x in fruits:
   print(x)
   if x == "banana":
     break
+    
 '''
 Example:
 
@@ -86,7 +87,8 @@ for x in range(6):
  '''
 Note that range(6) is not the values of 0 to 6, but the values 0 to 5.
 
-The range() function defaults to 0 as a starting value, however it is possible to specify the starting value by adding a parameter: range(2, 6), which means values from 2 to 6 (but not including 6):
+The range() function defaults to 0 as a starting value, however it is possible to specify the starting value by adding a parameter: range(2, 6), which means values from 2 to 6
+(but not including 6):
 
 Example:
 
