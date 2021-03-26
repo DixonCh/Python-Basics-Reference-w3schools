@@ -97,7 +97,8 @@ thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
 
-Loop Through a List
+Loop Through a List:
+  
 You can loop through the list items by using a for loop:
 
 Example:
@@ -109,7 +110,8 @@ for x in thislist:
   print(x)
 You will learn more about for loops in our Python For Loops Chapter.
 
-Check if Item Exists
+Check if Item Exists:
+  
 To determine if a specified item is present in a list use the in keyword:
 
 Example
