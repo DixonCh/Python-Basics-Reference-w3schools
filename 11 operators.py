@@ -13,6 +13,7 @@ Logical operators
 Identity operators
 Membership operators
 Bitwise operators
+
 # ****************************************************
 Python Arithmetic Operators:
 
@@ -79,7 +80,8 @@ is not	Returns True if both variables are not the same object	x is not y
 Python Membership Operators
 Membership operators are used to test if a sequence is presented in an object:
 
-Operator	Description	Example	Try it
+Operator	Description	Example	
+
 in 	Returns True if a sequence with the specified value is present in the object	x in y	
 not in	Returns True if a sequence with the specified value is not present in the object	x not in y	
 Python Bitwise Operators
