@@ -13,7 +13,8 @@ You can display a string literal with the print() function:
 print("Hello")
 print('Hello')
 
-#Assign String to a Variable
+#Assign String to a Variable:
+
 #Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
 
 #Example:
@@ -126,7 +127,9 @@ The replace() method replaces a string with another string:
 '''
 a = "Hello, World!"
 print(a.replace("H", "J"))
-Example
+
+Example:
+  
 The split() method splits the string into substrings if it finds instances of the separator:
 
 a = "Hello, World!"
