@@ -60,7 +60,8 @@ my var = "John"
 
 '''Remember that variable names in Python are case-sensitive.
 
-Assign Value to Multiple Variables
+Assign Value to Multiple Variables:
+
 Python allows you to assign values to multiple variables in one line:
 '''
 #Example:
@@ -79,7 +80,8 @@ print(x)
 print(y)
 print(z)
 
-#Output Variables
+#Output Variables:
+
 #The Python print statement is often used to output variables.
 
 #To combine both text and a variable, Python uses the + character:
