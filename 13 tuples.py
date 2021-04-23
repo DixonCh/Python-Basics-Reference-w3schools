@@ -86,7 +86,8 @@ x = tuple(y)
 
 print(x)
 '''
-Loop Through a Tuple
+Loop Through a Tuple:
+
 You can loop through the tuple items by using a for loop.
 
 Example:
