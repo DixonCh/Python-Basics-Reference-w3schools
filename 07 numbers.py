@@ -53,6 +53,7 @@ z = -35.59
 print(type(x))
 print(type(y))
 print(type(z))
+
 Float can also be scientific numbers with an "e" to indicate the power of 10.
 
 Example:
@@ -112,6 +113,7 @@ print(c)
 print(type(a))
 print(type(b))
 print(type(c))
+
 Note: You cannot convert complex numbers into another number type.
 
 Random Number:
