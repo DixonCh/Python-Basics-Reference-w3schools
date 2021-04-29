@@ -134,7 +134,6 @@ Adding an item to the dictionary is done by using a new index key and assigning 
 Example:
 
 '''
-
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -200,6 +199,7 @@ del thisdict
 print(thisdict) #this will cause an error because "thisdict" no longer exists.
 '''
 Example:
+
 The clear() method empties the dictionary:
 '''
 
@@ -215,7 +215,8 @@ print(thisdict)
 '''
 Copy a Dictionary:
 
-You cannot copy a dictionary simply by typing dict2 = dict1, because: dict2 will only be a reference to dict1, and changes made in dict1 will automatically also be made in dict2.
+You cannot copy a dictionary simply by typing dict2 = dict1, because: dict2 will only be a reference to dict1, and changes made in dict1 will automatically also be made
+in dict2.
 
 There are ways to make a copy, one way is to use the built-in Dictionary method copy().
 
