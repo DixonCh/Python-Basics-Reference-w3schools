@@ -72,7 +72,6 @@ else:
   print("i is no longer less than 6")
 '''
 Test Yourself With Exercises:
-
 Exercise:
 
 Print i as long as i is less than 6.
