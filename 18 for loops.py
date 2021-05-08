@@ -58,6 +58,7 @@ for x in fruits:
     break
   print(x)
 '''
+
 The continue Statement:
 
 With the continue statement we can stop the current iteration of the loop, and continue with the next:
@@ -134,7 +135,8 @@ A nested loop is a loop inside a loop.
 
 The "inner loop" will be executed one time for each iteration of the "outer loop":
 
-Example
+Example:
+
 Print each adjective for every fruit:
 '''
 
