@@ -147,7 +147,8 @@ Removing Items:
 
 There are several methods to remove items from a dictionary:
 
-Example
+Example:
+
 The pop() method removes the item with the specified key name:
 '''
 
@@ -302,7 +303,9 @@ thisdict = dict(brand="Ford", model="Mustang", year=1964)
 # note that keywords are not string literals
 # note the use of equals rather than colon for the assignment
 print(thisdict)
-Dictionary Methods
+
+Dictionary Methods:
+  
 Python has a set of built-in methods that you can use on dictionaries.
 
 Method	            Description:
