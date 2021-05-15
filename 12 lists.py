@@ -91,6 +91,7 @@ Change Item Value:
 To change the value of a specific item, refer to the index number:
   
 Example:
+  
 Change the second item:
 
 thislist = ["apple", "banana", "cherry"]
@@ -108,30 +109,37 @@ Print all items in the list, one by one:
 thislist = ["apple", "banana", "cherry"]
 for x in thislist:
   print(x)
+  
 You will learn more about for loops in our Python For Loops Chapter.
 
 Check if Item Exists:
   
 To determine if a specified item is present in a list use the in keyword:
 
-Example
+Example:
+  
 Check if "apple" is present in the list:
 
 thislist = ["apple", "banana", "cherry"]
 if "apple" in thislist:
   print("Yes, 'apple' is in the fruits list")
-List Length
+  
+List Length:
+  
 To determine how many items a list has, use the len() function:
 
-Example
+Example:
+  
 Print the number of items in the list:
 
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist))
-Add Items
+
+Add Items:
+  
 To add an item to the end of the list, use the append() method:
 
-Example
+Example:
 Using the append() method to append an item:
 
 thislist = ["apple", "banana", "cherry"]
