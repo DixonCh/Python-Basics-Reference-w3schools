@@ -173,11 +173,13 @@ set2 = {1, 2, 3}
 
 set1.update(set2)
 print(set1)
+
 Note: Both union() and update() will exclude any duplicate items.
 
 There are other methods that joins two sets and keeps ONLY the duplicates, or NEVER the duplicates, check the full list of set methods in the bottom of this page.
 
-The set() Constructor
+The set() Constructor:
+  
 It is also possible to use the set() constructor to make a set.
 
 Example:
