@@ -133,6 +133,7 @@ The "inner loop" will be executed one time for each iteration of the "outer loop
 Example:
 
 Print each adjective for every fruit:
+
 '''
 adj = ["red", "big", "tasty"]
 fruits = ["apple", "banana", "cherry"]
