@@ -78,7 +78,9 @@ Example:
 Add one more element to the cars array:
 
 cars.append("Honda")
-Removing Array Elements
+
+Removing Array Elements:
+  
 You can use the pop() method to remove an element from the array.
 
 Example:
@@ -88,7 +90,8 @@ Delete the second element of the cars array:
 cars.pop(1)
 You can also use the remove() method to remove an element from the array.
 
-Example
+Example:
+  
 Delete the element that has the value "Volvo":
 
 cars.remove("Volvo")
