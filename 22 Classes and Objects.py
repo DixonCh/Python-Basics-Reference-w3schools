@@ -39,7 +39,8 @@ All classes have a function called __init__(), which is always executed when the
 
 Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
 
-Example
+Example:
+  
 Create a class named Person, use the __init__() function to assign values for name and age:
 
 class Person:
@@ -51,14 +52,17 @@ p1 = Person("John", 36)
 
 print(p1.name)
 print(p1.age)
+
 Note: The __init__() function is called automatically every time the class is being used to create a new object.
 
-Object Methods
+Object Methods:
+  
 Objects can also contain methods. Methods in objects are functions that belong to the object.
 
 Let us create a method in the Person class:
 
 Example
+
 Insert a function that prints a greeting, and execute it on the p1 object:
 
 class Person:
