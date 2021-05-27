@@ -95,9 +95,11 @@ Example:
 Delete the element that has the value "Volvo":
 
 cars.remove("Volvo")
+
 Note: The list's remove() method only removes the first occurrence of the specified value.
 
-Array Methods
+Array Methods:
+  
 Python has a set of built-in methods that you can use on lists/arrays.
 
 Method	Description
