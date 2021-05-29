@@ -18,6 +18,7 @@ Create a class named Person, with firstname and lastname properties, and a print
 '''
 
 class Person:
+  
   def __init__(self, fname, lname):
     self.firstname = fname
     self.lastname = lname
@@ -69,6 +70,7 @@ Add the __init__() function to the Student class:
 class Student(Person):
   def __init__(self, fname, lname):
     #add properties etc.
+    
 When you add the __init__() function, the child class will no longer inherit the parent's __init__() function.
 
 Note: The child's __init__() function overrides the inheritance of the parent's __init__() function.
