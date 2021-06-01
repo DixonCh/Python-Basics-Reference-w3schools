@@ -20,6 +20,7 @@ x = lambda a : a + 10
 
 print(x(5))
 '''
+
 Lambda functions can take any number of arguments:
 
 Example:
@@ -29,6 +30,7 @@ A lambda function that multiplies argument a with argument b and print the resul
 x = lambda a, b : a * b
 print(x(5, 6))
 '''
+
 Example:
 
 A lambda function that sums argument a, b, and c and print the result:
