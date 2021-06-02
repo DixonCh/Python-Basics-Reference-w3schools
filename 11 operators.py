@@ -6,7 +6,8 @@ Operators are used to perform operations on variables and values.
 
 Python divides the operators in the following groups:
 # ****************************************************
-Arithmetic operators
+Arithmetic operators:
+
 Assignment operators
 Comparison operators
 Logical operators
