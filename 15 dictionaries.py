@@ -199,6 +199,7 @@ thisdict = {
 del thisdict
 print(thisdict) #this will cause an error because "thisdict" no longer exists.
 '''
+
 Example:
 
 The clear() method empties the dictionary:
@@ -236,7 +237,8 @@ print(mydict)
 '''
 Another way to make a copy is to use the built-in method dict().
 
-Example
+Example:
+
 Make a copy of a dictionary with the dict() method:
 '''
 thisdict = {
