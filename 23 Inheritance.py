@@ -55,7 +55,7 @@ Use the Student class to create an object, and then execute the printname method
 x = Student("Mike", "Olsen")
 x.printname()
 
-Add the __init__() Function
+Add the __init__() Function:
 
 So far we have created a child class that inherits the properties and methods from its parent.
 
@@ -82,6 +82,7 @@ Example:
 class Student(Person):
   def __init__(self, fname, lname):
     Person.__init__(self, fname, lname)
+    
 Now we have successfully added the __init__() function, and kept the inheritance of the parent class, and we are ready to add functionality in the __init__() function.
 
 Use the super() Function:
@@ -93,6 +94,7 @@ Example:
 class Student(Person):
   def __init__(self, fname, lname):
     super().__init__(fname, lname)
+    
 By using the super() function, you do not have to use the name of the parent element, it will automatically inherit the methods and properties from its parent.
 
 Add Properties:
