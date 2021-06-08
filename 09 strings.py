@@ -62,7 +62,6 @@ Get the character at position 1 (remember that the first character has the posit
 a = "Hello, World!"
 print(a[1])
 '''
-
 Slicing:
 
 You can return a range of characters by using the slice syntax.
@@ -77,6 +76,7 @@ Get the characters from position 2 to position 5 (not included):
 b = "Hello, World!"
 print(b[2:5])
 '''
+
 Negative Indexing:
 
 Use negative indexes to start the slice from the end of the string:
@@ -98,7 +98,8 @@ print(b[-5:-2])
 a = "Hello, World!"
 print(len(a))
 
-#String Methods
+#String Methods:
+
 #Python has a set of built-in methods that you can use on strings.
 
 #Example
@@ -122,7 +123,8 @@ The upper() method returns the string in upper case:
 a = "Hello, World!"
 print(a.upper())
 
-'''Example
+'''Example:
+
 The replace() method replaces a string with another string:
 '''
 a = "Hello, World!"
