@@ -15,7 +15,6 @@ thistuple = ("apple", "banana", "cherry")
 
 print(thistuple)
 '''
-
 Access Tuple Items:
 
 You can access tuple items by referring to the index number, inside square brackets:
@@ -28,6 +27,7 @@ thistuple = ("apple", "banana", "cherry")
 
 print(thistuple[1])
 '''
+
 Negative Indexing:
 
 Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item etc.
@@ -38,6 +38,7 @@ Print the last item of the tuple:
 '''
 
 thistuple = ("apple", "banana", "cherry")
+
 print(thistuple[-1])
 '''
 Range of Indexes:
