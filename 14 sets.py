@@ -10,6 +10,7 @@ Create a Set:
 '''
 
 thisset = {"apple", "banana", "cherry"}
+
 print(thisset)
 '''
 Note: Sets are unordered, so you cannot be sure in which order the items will appear.
@@ -172,6 +173,7 @@ set1 = {"a", "b" , "c"}
 set2 = {1, 2, 3}
 
 set1.update(set2)
+
 print(set1)
 
 Note: Both union() and update() will exclude any duplicate items.
@@ -190,6 +192,7 @@ thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
 print(thisset)
 
 Set Methods:
+  
 Python has a set of built-in methods that you can use on sets.
 
 Method	          Description:
