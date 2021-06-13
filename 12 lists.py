@@ -77,7 +77,9 @@ This example returns the items from "cherry" and to the end:
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:])
-Range of Negative Indexes
+
+Range of Negative Indexes:
+  
 Specify negative indexes if you want to start the search from the end of the list:
 
 Example:
@@ -88,6 +90,7 @@ thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[-4:-1])
 
 Change Item Value:
+  
 To change the value of a specific item, refer to the index number:
   
 Example:
