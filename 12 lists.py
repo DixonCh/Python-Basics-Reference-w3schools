@@ -69,6 +69,7 @@ This example returns the items from the beginning to "orange":
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[:4])
+
 By leaving out the end value, the range will go on to the end of the list:
 
 Example:
@@ -143,6 +144,7 @@ Add Items:
 To add an item to the end of the list, use the append() method:
 
 Example:
+  
 Using the append() method to append an item:
 
 thislist = ["apple", "banana", "cherry"]
@@ -150,7 +152,8 @@ thislist.append("orange")
 print(thislist)
 To add an item at the specified index, use the insert() method:
 
-Example
+Example:
+  
 Insert an item as the second position:
 
 thislist = ["apple", "banana", "cherry"]
