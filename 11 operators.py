@@ -62,7 +62,9 @@ Operator	Name	                Example	     Try it
 <	Less than	x < y	
 >=	Greater than or equal to	x >= y	
 <=	Less than or equal to	x <= y	
-#Python Logical Operators
+
+#Python Logical Operators:
+
 #Logical operators are used to combine conditional statements:
 
 '''
