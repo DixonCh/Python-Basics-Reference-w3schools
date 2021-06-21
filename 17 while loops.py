@@ -21,6 +21,7 @@ while i < 6:
   print(i)
   i += 1
   '''
+  
 Note: remember to increment i, or else the loop will continue forever.
 
 The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.
@@ -40,6 +41,7 @@ while i < 6:
     break
   i += 1
 '''
+
 The continue Statement:
 
 With the continue statement we can stop the current iteration, and continue with the next:
@@ -56,6 +58,7 @@ while i < 6:
   print(i)
  
 '''
+
 The else Statement:
 
 With the else statement we can run a block of code once when the condition no longer is true:
@@ -71,7 +74,9 @@ while i < 6:
 else:
   print("i is no longer less than 6")
 '''
+
 Test Yourself With Exercises:
+
 Exercise:
 
 Print i as long as i is less than 6.
