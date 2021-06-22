@@ -98,6 +98,7 @@ for x, y in thisdict.items():
   print(x, y)
  
 '''
+
 Check if Key Exists:
 
 To determine if a specified key is present in a dictionary use the in keyword:
@@ -187,6 +188,7 @@ thisdict = {
 del thisdict["model"]
 print(thisdict)
 '''
+
 Example:
 
 The del keyword can also delete the dictionary completely:
