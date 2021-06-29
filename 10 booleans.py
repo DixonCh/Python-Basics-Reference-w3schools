@@ -52,7 +52,8 @@ print(bool(x))
 print(bool(y))
 
 
-#Most Values are True
+#Most Values are True:
+
 #Almost any value is evaluated to True if it has some sort of content.
 
 Any string is True, except empty strings.
