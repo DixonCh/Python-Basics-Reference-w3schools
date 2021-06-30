@@ -38,6 +38,7 @@ With the break statement we can stop the loop before it has looped through all t
 Example:
 
 Exit the loop when x is "banana":
+
 '''
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
@@ -122,7 +123,6 @@ for x in range(6):
   print(x)
 else:
   print("Finally finished!")
-  
 '''
 Nested Loops:
 
