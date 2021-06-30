@@ -47,6 +47,7 @@ for x in fruits:
     break
     
 '''
+
 Example:
 
 Exit the loop when x is "banana", but this time the break comes before the print:
