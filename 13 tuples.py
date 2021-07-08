@@ -41,6 +41,7 @@ thistuple = ("apple", "banana", "cherry")
 
 print(thistuple[-1])
 '''
+
 Range of Indexes:
 
 You can specify a range of indexes by specifying where to start and where to end the range.
