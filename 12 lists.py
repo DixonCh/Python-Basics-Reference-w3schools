@@ -55,6 +55,7 @@ Example:
 Return the third, fourth, and fifth item:
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+
 print(thislist[2:5])
 
 Note: The search will start at index 2 (included) and end at index 5 (not included).
@@ -150,6 +151,7 @@ Using the append() method to append an item:
 thislist = ["apple", "banana", "cherry"]
 thislist.append("orange")
 print(thislist)
+
 To add an item at the specified index, use the insert() method:
 
 Example:
@@ -159,7 +161,9 @@ Insert an item as the second position:
 thislist = ["apple", "banana", "cherry"]
 thislist.insert(1, "orange")
 print(thislist)
-Remove Item
+
+Remove Item:
+  
 There are several methods to remove items from a list:
 
 Example:
@@ -169,6 +173,7 @@ The remove() method removes the specified item:
 thislist = ["apple", "banana", "cherry"]
 thislist.remove("banana")
 print(thislist)
+
 Example
 The pop() method removes the specified index, (or the last item if index is not specified):
 
