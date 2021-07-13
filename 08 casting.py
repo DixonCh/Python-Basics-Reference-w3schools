@@ -15,6 +15,7 @@ float() - constructs a float number from an integer literal, a float literal or 
 
 str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
 '''
+
 #Example:
 
 #Integers:
