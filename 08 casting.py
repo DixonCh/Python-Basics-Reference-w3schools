@@ -17,7 +17,6 @@ str() - constructs a string from a wide variety of data types, including strings
 '''
 
 #Example:
-
 #Integers:
 
 x = int(1)   # x will be 1
@@ -34,7 +33,6 @@ z = float("3")   # z will be 3.0
 w = float("4.2") # w will be 4.2
 
 #Example:
-
 #Strings:
 
 x = str("s1") # x will be 's1'
