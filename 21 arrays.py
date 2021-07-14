@@ -88,6 +88,7 @@ Example:
 Delete the second element of the cars array:
 
 cars.pop(1)
+
 You can also use the remove() method to remove an element from the array.
 
 Example:
@@ -102,7 +103,8 @@ Array Methods:
   
 Python has a set of built-in methods that you can use on lists/arrays.
 
-Method	Description
+Method	Description:
+  
 append()	Adds an element at the end of the list
 clear()	Removes all the elements from the list
 copy()	Returns a copy of the list
