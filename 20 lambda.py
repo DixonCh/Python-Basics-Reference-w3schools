@@ -76,6 +76,7 @@ Or, use the same function definition to make both functions, in the same program
 Example:
   
 def myfunc(n):
+  
   return lambda a : a * n
 
 mydoubler = myfunc(2)
