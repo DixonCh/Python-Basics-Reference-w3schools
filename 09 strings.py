@@ -89,6 +89,7 @@ b = "Hello, World!"
 print(b[-5:-2])
 
 #String Length
+
 #To get the length of a string, use the len() function.
 
 #Example:
@@ -102,7 +103,8 @@ print(len(a))
 
 #Python has a set of built-in methods that you can use on strings.
 
-#Example
+#Example:
+
 #The strip() method removes any whitespace from the beginning or the end:
 
 a = " Hello, World! "
