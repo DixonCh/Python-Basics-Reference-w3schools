@@ -99,13 +99,4 @@ Bitwise operators are used to compare (binary) numbers:
  ^	XOR	Sets each bit to 1 if only one of two bits is 1
 ~ 	NOT	Inverts all the bits
 <<	Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off
->>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
-
-Test Yourself With Exercises:
-
-Exercise:
-
-Multiply 10 with 5, and print the result.
-'''
-print(10 
- 5)
+>>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall of
