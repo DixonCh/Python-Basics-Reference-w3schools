@@ -31,6 +31,7 @@ Loop through the letters in the word "banana":
 '''
 
 for x in "banana":
+  
   print(x)
   
  '''
@@ -162,7 +163,9 @@ Example:
 for x in [0, 1, 2]:
   pass
 '''
+
 Test Yourself With Exercises
+
 Exercise:
 Loop through the items in the fruits list.
 '''
