@@ -48,6 +48,7 @@ if 5 > 2:
  print("Five is greater than two!") 
 if 5 > 2:
         print("Five is greater than two!") 
+    
 You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
 
 Example:
@@ -60,21 +61,25 @@ if 5 > 2:
 Python Variables
 In Python, variables are created when you assign a value to it:
 
-Example
+Example:
+  
 Variables in Python:
 
 x = 5
+
 y = "Hello, World!"
 Python has no command for declaring a variable.
 
 You will learn more about variables in the Python Variables chapter.
 
-Comments
+Comments:
+  
 Python has commenting capability for the purpose of in-code documentation.
 
 Comments start with a #, and Python will render the rest of the line as a comment:
 
-Example
+Example:
+  
 Comments in Python:
 
 #This is a comment.
