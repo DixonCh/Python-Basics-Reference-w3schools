@@ -89,6 +89,7 @@ print(z)
 #Example:
 
 x = "awesome"
+
 print("Python is " + x)
 
 
@@ -119,6 +120,7 @@ y = "John"
 print(x + y)
 
 '''Global Variables:
+
 Variables that are created outside of a function (as in all of the examples above) are known as global variables.
 
 Global variables can be used by everyone, both inside of functions and outside.
@@ -148,12 +150,15 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
-The global Keyword
+
+The global Keyword:
+  
 Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.
 
 To create a global variable inside a function, you can use the global keyword.
 
-Example
+Example:
+  
 If you use the global keyword, the variable belongs to the global scope:
 
 def myfunc():
