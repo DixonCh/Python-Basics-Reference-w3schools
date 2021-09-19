@@ -180,13 +180,17 @@ The pop() method removes the specified index, (or the last item if index is not 
 thislist = ["apple", "banana", "cherry"]
 thislist.pop()
 print(thislist)
-Example
+
+Example:
+  
 The del keyword removes the specified index:
 
 thislist = ["apple", "banana", "cherry"]
 del thislist[0]
 print(thislist)
-Example
+
+Example:
+  
 The del keyword can also delete the list completely:
 
 thislist = ["apple", "banana", "cherry"]
