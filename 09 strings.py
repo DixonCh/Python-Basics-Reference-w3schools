@@ -21,7 +21,9 @@ print('Hello')
 
 a = "Hello"
 print(a)
-#Multiline Strings
+
+#Multiline Strings:
+
 #You can assign a multiline string to a variable by using three quotes:
 
 #Example:
