@@ -57,6 +57,7 @@ thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 
 print(thistuple[2:5])
 '''
+
 Note: The search will start at index 2 (included) and end at index 5 (not included).
 
 Remember that the first item has index 0.
@@ -99,6 +100,7 @@ Example:
 
 Iterate through the items and print the values:
 '''
+
 thistuple = ("apple", "banana", "cherry")
 for x in thistuple:
   print(x)
@@ -157,6 +159,7 @@ thistuple = ("apple",)
 print(type(thistuple))
 
 #NOT a tuple
+
 thistuple = ("apple")
 print(type(thistuple))
 '''
