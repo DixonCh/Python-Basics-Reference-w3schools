@@ -133,6 +133,7 @@ print("A") if a > b else print("=") if a == b else print("B")
 '''
 
 And:
+
 The and keyword is a logical operator, and is used to combine conditional statements:
 
 Example:
