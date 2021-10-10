@@ -81,7 +81,9 @@ Operator	Description	Example	Try it
 
 is 	Returns True if both variables are the same object	x is y	
 is not	Returns True if both variables are not the same object	x is not y	
-Python Membership Operators
+
+Python Membership Operators:
+
 Membership operators are used to test if a sequence is presented in an object:
 
 Operator	Description	Example	
