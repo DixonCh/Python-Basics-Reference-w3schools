@@ -100,6 +100,7 @@ myobj = myclass()
 print(bool(myobj))
 
 #Functions can Return a Boolean
+
 #You can create functions that returns a Boolean Value:
 
 #Example
