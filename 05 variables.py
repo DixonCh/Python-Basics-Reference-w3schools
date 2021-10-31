@@ -100,6 +100,7 @@ print("Python is " + x)
 x = "Python is "
 y = "awesome"
 z =  x + y
+
 print(z)
 
 #For numbers, the + character works as a mathematical operator:
