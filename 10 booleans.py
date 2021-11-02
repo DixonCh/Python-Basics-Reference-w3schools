@@ -77,6 +77,7 @@ bool(["apple", "cherry", "banana"])
 #evaluates to False.
 
 #Example:
+
 #The following will return False:
 
 bool(False)
@@ -128,6 +129,7 @@ else:
 #Python also has many built-in functions that returns a boolean value, like the isinstance() function, which can be used to determine if an object is of a certain data type:
 
 #Example:
+
 #Check if an object is an integer or not:
 
 x = 200
