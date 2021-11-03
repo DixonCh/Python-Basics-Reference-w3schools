@@ -46,6 +46,7 @@ Example:
 Print the last item of the list:
 
 thislist = ["apple", "banana", "cherry"]
+
 print(thislist[-1])
 
 Range of Indexes:
@@ -117,6 +118,7 @@ Example:
 Print all items in the list, one by one:
 
 thislist = ["apple", "banana", "cherry"]
+
 for x in thislist:
   print(x)
   
@@ -131,6 +133,7 @@ Example:
 Check if "apple" is present in the list:
 
 thislist = ["apple", "banana", "cherry"]
+
 if "apple" in thislist:
   print("Yes, 'apple' is in the fruits list")
   
@@ -179,7 +182,8 @@ thislist = ["apple", "banana", "cherry"]
 thislist.remove("banana")
 print(thislist)
 
-Example
+Example:
+  
 The pop() method removes the specified index, (or the last item if index is not specified):
 
 thislist = ["apple", "banana", "cherry"]
