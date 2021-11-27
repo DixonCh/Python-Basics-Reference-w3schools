@@ -115,6 +115,7 @@ One line if else statement:
 '''
 a = 2
 b = 330
+
 print("A") if a > b else print("B")
 
 '''
@@ -162,7 +163,8 @@ if a > b or a > c:
 Nested If
 You can have if statements inside if statements, this is called nested if statements.
 
-Example
+Example:
+
 '''
 x = 41
 
