@@ -53,7 +53,7 @@ x = memoryview(bytes(5))	memoryview
 
 #If you want to specify the data type, you can use the following constructor functions:
 
-#Example	                Data Type	   
+#Example	                                           Data Type	   
 
 x = str("Hello World")	                                str	
 x = int(20)	                                            int	
