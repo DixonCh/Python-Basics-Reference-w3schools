@@ -152,6 +152,7 @@ print(thisset)
 Join Two Sets:
   
 There are several ways to join two or more sets in Python.
+
 You can use the union() method that returns a new set containing all items from both sets, or the update() method that inserts all the items from one set into another:
 
 Example:
