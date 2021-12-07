@@ -79,7 +79,8 @@ Identity operators are used to compare the objects, not if they are equal, but i
 
 Operator	Description	Example	Try it
 
-is 	Returns True if both variables are the same object	x is y	
+is 	Returns True if both variables are the same object	x is y
+
 is not	Returns True if both variables are not the same object	x is not y	
 
 Python Membership Operators:
