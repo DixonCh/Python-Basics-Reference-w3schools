@@ -10,6 +10,7 @@ to define data types, including its primitive types.
 '''
 
 int() - constructs an integer number from an integer literal, a float literal (by rounding down to the previous whole number), or a string literal (providing the string
+
 represents a whole number)
 
 float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
