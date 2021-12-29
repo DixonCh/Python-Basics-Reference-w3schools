@@ -11,6 +11,7 @@ You can display a string literal with the print() function:
 #Example:
 
 print("Hello")
+
 print('Hello')
 
 #Assign String to a Variable:
