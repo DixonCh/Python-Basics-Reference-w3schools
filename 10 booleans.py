@@ -101,6 +101,7 @@ class myclass():
     return 0
 
 myobj = myclass()
+
 print(bool(myobj))
 
 #Functions can Return a Boolean
