@@ -13,7 +13,6 @@ Example:
 
 Print each fruit in a fruit list:
 '''
-
 fruits = ["apple", "banana", "cherry"]
 
 for x in fruits:
@@ -44,6 +43,7 @@ Example:
 
 Exit the loop when x is "banana":
 '''
+
 fruits = ["apple", "banana", "cherry"]
 
 for x in fruits:
