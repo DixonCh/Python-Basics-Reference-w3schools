@@ -66,6 +66,7 @@ Get the character at position 1 (remember that the first character has the posit
 a = "Hello, World!"
 print(a[1])
 '''
+
 Slicing:
 
 You can return a range of characters by using the slice syntax.
