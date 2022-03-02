@@ -81,7 +81,6 @@ Get the characters from position 2 to position 5 (not included):
 b = "Hello, World!"
 print(b[2:5])
 '''
-
 Negative Indexing:
 
 Use negative indexes to start the slice from the end of the string:
@@ -102,6 +101,7 @@ print(b[-5:-2])
 #The len() function returns the length of a string:
 
 a = "Hello, World!"
+
 print(len(a))
 
 #String Methods:
