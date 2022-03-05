@@ -16,8 +16,8 @@ thisdict = {
   "year": 1964
 }
 print(thisdict)
-'''
 
+'''
 Accessing Items:
 
 You can access the items of a dictionary by referring to its key name, inside square brackets:
