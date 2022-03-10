@@ -12,7 +12,8 @@ Set is a collection which is unordered and unindexed. No duplicate members.
 
 Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 
-When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and,
+When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, 
+and,
 
 it could mean an increase in efficiency or security.
 
@@ -86,6 +87,7 @@ Example:
 This example returns the items from "cherry" and to the end:
 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+
 print(thislist[2:])
 
 Range of Negative Indexes:
