@@ -13,7 +13,6 @@ thisset = {"apple", "banana", "cherry"}
 
 print(thisset)
 '''
-
 Note: Sets are unordered, so you cannot be sure in which order the items will appear.
 
 Access Items:
