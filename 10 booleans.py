@@ -53,7 +53,6 @@ y = 15
 print(bool(x))
 print(bool(y))
 
-
 #Most Values are True:
 
 #Almost any value is evaluated to True if it has some sort of content.
