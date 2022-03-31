@@ -24,6 +24,7 @@ car1 = "Ford"
 car2 = "Volvo"
 car3 = "BMW"
 '''
+
 However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?
 
 The solution is an array!
