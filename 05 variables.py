@@ -33,7 +33,6 @@ x = "John"
 # is the same as
 x = 'John'
 
-
 '''Variable Names:
 
 1. A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
