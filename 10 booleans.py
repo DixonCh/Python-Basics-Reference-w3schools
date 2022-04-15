@@ -36,7 +36,6 @@ else:
 #The bool() function allows you to evaluate any value, and give you True or False in return,
 
 #Example:
-
 #Evaluate a string and a number:
 
 print(bool("Hello"))
@@ -74,7 +73,8 @@ bool(["apple", "cherry", "banana"])
 
 #Some Values are False:
 
-#In fact, there are not many values that evaluates to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value False 
+#In fact, there are not many values that evaluates to False, except empty values, such as (), [], {}, "", the number 0, and the value None. And of course the value 
+False 
 
 #evaluates to False.
 
