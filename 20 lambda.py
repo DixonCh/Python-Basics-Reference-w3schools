@@ -31,6 +31,7 @@ x = lambda a, b : a * b
 
 print(x(5, 6))
 '''
+
 Example:
 
 A lambda function that sums argument a, b, and c and print the result:
