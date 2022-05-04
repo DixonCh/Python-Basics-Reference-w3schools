@@ -124,7 +124,6 @@ a = "Hello, World!"
 print(a.lower())
 
 '''Example:
-
 The upper() method returns the string in upper case:
 '''
 a = "Hello, World!"
