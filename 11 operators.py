@@ -68,7 +68,6 @@ Operator	Name	                Example	     Try it
 
 #Logical operators are used to combine conditional statements:
 '''
-
 Operator	Description:
 
 and 	Returns True if both statements are true	x < 5 and  x < 10	
