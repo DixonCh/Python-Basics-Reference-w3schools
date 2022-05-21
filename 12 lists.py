@@ -17,7 +17,6 @@ When choosing a collection type, it is useful to understand the properties of th
 meaning, and, it could mean an increase in efficiency or security.
 
 List:
-  
 A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
 
 Example:
