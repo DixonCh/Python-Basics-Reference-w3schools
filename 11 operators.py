@@ -92,7 +92,9 @@ Operator	Description	Example:
 
 in 	Returns True if a sequence with the specified value is present in the object	x in y	
 not in	Returns True if a sequence with the specified value is not present in the object	x not in y	
-Python Bitwise Operators
+
+Python Bitwise Operators:
+
 Bitwise operators are used to compare (binary) numbers:
 '''
 
