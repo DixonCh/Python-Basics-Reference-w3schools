@@ -67,6 +67,7 @@ Operator	Name	                Example	     Try it
 #Python Logical Operators:
 
 #Logical operators are used to combine conditional statements:
+
 '''
 Operator	Description:
 
