@@ -49,7 +49,7 @@ x = b"Hello"	bytes
 x = bytearray(5)	bytearray	
 x = memoryview(bytes(5))	memoryview
 
-#Setting the Specific Data Type
+#Setting the Specific Data Type:
 
 #If you want to specify the data type, you can use the following constructor functions:
 
