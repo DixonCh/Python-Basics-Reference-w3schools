@@ -60,7 +60,6 @@ thisset.add("orange")
 print(thisset)
 
 Example:
-  
 Add multiple items to a set, using the update() method:
 
 thisset = {"apple", "banana", "cherry"}
