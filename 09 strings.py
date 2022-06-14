@@ -21,6 +21,7 @@ print('Hello')
 #Example:
 
 a = "Hello"
+
 print(a)
 
 #Multiline Strings:
@@ -175,7 +176,9 @@ a = "Hello"
 b = "World"
 c = a + b
 print(c)
-Example
+
+Example:
+  
 To add a space between them, add a " ":
 
 a = "Hello"
