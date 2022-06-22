@@ -50,7 +50,6 @@ The elif keyword is pythons way of saying "if the previous conditions were not t
 
 Example:
 '''
-
 a = 33
 b = 33
 if b > a:
