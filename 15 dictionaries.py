@@ -28,7 +28,6 @@ Example:
 
 Get the value of the "model" key:
 '''
-
 x = thisdict["model"]
 '''
 There is also a method called get() that will give you the same result:
@@ -58,6 +57,7 @@ thisdict = {
 
 thisdict["year"] = 2018
 '''
+
 Loop Through a Dictionary:
 
 You can loop through a dictionary by using a for loop.
@@ -100,7 +100,6 @@ for x, y in thisdict.items():
   print(x, y)
  
 '''
-
 Check if Key Exists:
 
 To determine if a specified key is present in a dictionary use the in keyword:
