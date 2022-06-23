@@ -104,7 +104,6 @@ z =  x + y
 print(z)
 
 #For numbers, the + character works as a mathematical operator:
-
 #Example:
 
 x = 5
@@ -185,7 +184,3 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
-
-
-
-
