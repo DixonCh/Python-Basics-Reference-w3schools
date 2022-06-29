@@ -61,7 +61,6 @@ However, Python does not have a character data type, a single character is simpl
 Square brackets can be used to access elements of the string.
 
 Example:
-
 Get the character at position 1 (remember that the first character has the position 0):
 '''
 
