@@ -91,6 +91,7 @@ Example:
 Use the words mysillyobject and abc instead of self:
 
 class Person:
+  
   def __init__(mysillyobject, name, age):
     mysillyobject.name = name
     mysillyobject.age = age
@@ -103,7 +104,8 @@ p1.myfunc()
 Modify Object Properties
 You can modify properties on objects like this:
 
-Example
+Example:
+  
 Set the age of p1 to 40:
 
 p1.age = 40
