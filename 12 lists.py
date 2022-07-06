@@ -138,6 +138,7 @@ Check if "apple" is present in the list:
 thislist = ["apple", "banana", "cherry"]
 
 if "apple" in thislist:
+  
   print("Yes, 'apple' is in the fruits list")
   
 List Length:
@@ -273,7 +274,8 @@ print(list1)
 The list() Constructor
 It is also possible to use the list() constructor to make a new list.
 
-Example
+Example:
+  
 Using the list() constructor to make a List:
 
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
