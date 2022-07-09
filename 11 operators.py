@@ -23,6 +23,7 @@ Arithmetic operators are used with numeric values to perform common mathematical
 
 Operator	Name	                Example	     Try it
 '''
+
 +	       Addition	            x + y	
 -	       Subtraction	         x - y	
 *	       Multiplication	      x * y	
